@@ -19,7 +19,7 @@ const Routes = ({ match }) => {
       <Route path={`${prefix}whitepapers`} exact component={Whitepapers} />
       <Route path={`${prefix}infographics`} exact component={Infographics} />
       <Route path={`${prefix}distribution`} exact component={Distribution} />
-      <Redirect from={`${prefix}whitepapers.html`} to={`${prefix}downloads#whitepapers`} />
+      <Redirect from={`${prefix}whitepapers.html`} to={`${prefix}whitepapers`} />
       <Redirect from={`${prefix}infographics.html`} to={`${prefix}infographics`} />
       <Redirect from={`${prefix}downloads.html`} to={`${prefix}downloads`} />
       <Redirect from={`${prefix}faq.html`} to={`${prefix}`} />

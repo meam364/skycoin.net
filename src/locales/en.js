@@ -105,10 +105,10 @@ export default {
       },
     },
   },
-  downloads: {
-    title: 'Downloads',
-    description: 'Download Skycoin wallet and whitepapers.',
-    wallet: {
+  wallet: {
+    title: 'Wallet',
+    description: 'Download the Skycoin wallet.',
+    downloads: {
       heading: 'Wallet',
       lead: 'For simple use, download the Desktop wallet. For advanced use, or slow connections, the CLI wallet provides a UI that runs directly in your browser.',
       build: 'The current build is {version}.',
@@ -120,7 +120,11 @@ export default {
       download: 'Download',
       torrent: 'Torrent',
     },
-    whitepapers: {
+  },
+  whitepapers: {
+    title: 'Whitepapers',
+    description: 'Download Skycoin whitepapers.',
+    downloads: {
       heading: 'Whitepapers',
       download: 'Download',
     },

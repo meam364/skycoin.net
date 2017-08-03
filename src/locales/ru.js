@@ -105,10 +105,10 @@ export default {
       },
     },
   },
-  downloads: {
+  wallet: {
     title: 'Загрузки',
     description: 'Скачать Skycoin Кошелёк и описания.',
-    wallet: {
+    downloads: {
       heading: 'Кошелёк',
       lead: 'Для простейшего использования скачайте the Desktop кошелёк. Для продвинутого использования или медленных соединений кошелёк для командной строки (CLI) предоставляет интерфейс, доступный прямо в вашем браузере.',
       build: 'The current build is {version}.',
@@ -120,7 +120,11 @@ export default {
       download: 'Скачать',
       torrent: 'Torrent',
     },
-    whitepapers: {
+  },
+  whitepapers: {
+    title: 'TODO: Whitepapers',
+    description: 'TODO: Download Skycoin whitepapers.',
+    downloads: {
       heading: 'Описания',
       download: 'Скачать',
     },

@@ -105,10 +105,10 @@ export default {
       },
     },
   },
-  downloads: {
+  wallet: {
     title: '下载',
     description: '下载天空币钱包和白皮书.',
-    wallet: {
+    downloads: {
       heading: '钱包',
       lead: '为使用简便，请下载安装桌面钱包。针对高级用户或慢速连接, 命令行钱包提供了一个可以直接在浏览器运行的UI界面',
       build: '当前发布版本是 {version}.',
@@ -120,7 +120,11 @@ export default {
       download: '下载',
       torrent: '种子',
     },
-    whitepapers: {
+  },
+  whitepapers: {
+    title: 'TODO: Whitepapers',
+    description: 'TODO: Download Skycoin whitepapers.',
+    downloads: {
       heading: '白皮书',
       download: '下载',
     },

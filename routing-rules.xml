@@ -20,7 +20,7 @@
       <KeyPrefixEquals>whitepapers.html</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyWith>downloads#whitepapers</ReplaceKeyWith>
+      <ReplaceKeyWith>whitepapers</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
