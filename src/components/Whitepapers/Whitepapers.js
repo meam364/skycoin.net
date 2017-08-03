@@ -6,32 +6,30 @@ import { injectIntl } from 'react-intl';
 import GetStarted from 'components/GetStarted';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
-import Wallet from './components/Wallet';
-import Whitepapers from './components/Whitepapers';
+import Downloads from './components/Downloads';
 
-const Downloads = ({ intl }) => (
+const Whitepapers = ({ intl }) => (
   <div>
     <Helmet>
-      <title>{intl.formatMessage({ id: 'downloads.title' })}</title>
+      <title>{intl.formatMessage({ id: 'whitepapers.title' })}</title>
       <meta
         name="description"
-        content={intl.formatMessage({ id: 'downloads.description' })}
+        content={intl.formatMessage({ id: 'whitepapers.description' })}
       />
     </Helmet>
     <Header />
 
-    <Wallet />
-    <Whitepapers />
+    <Downloads />
 
     <GetStarted />
     <Footer />
   </div>
 );
 
-Downloads.propTypes = {
+Whitepapers.propTypes = {
   intl: PropTypes.shape({
     formatMessage: PropTypes.func.isRequired,
   }).isRequired,
 };
 
-export default injectIntl(Downloads);
+export default injectIntl(Whitepapers);

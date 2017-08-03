@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Home from '../Home';
-import Downloads from '../Downloads';
+import Wallet from '../Wallet';
+import Whitepapers from '../Whitepapers';
 import Infographics from '../Infographics';
 import Distribution from '../Distribution';
 import NotFound from '../NotFound';
@@ -14,7 +15,8 @@ const Routes = ({ match }) => {
   return (
     <Switch>
       <Route path={`${prefix}`} exact component={Home} />
-      <Route path={`${prefix}downloads`} exact component={Downloads} />
+      <Route path={`${prefix}downloads`} exact component={Wallet} />
+      <Route path={`${prefix}whitepapers`} exact component={Whitepapers} />
       <Route path={`${prefix}infographics`} exact component={Infographics} />
       <Route path={`${prefix}distribution`} exact component={Distribution} />
       <Redirect from={`${prefix}whitepapers.html`} to={`${prefix}downloads#whitepapers`} />

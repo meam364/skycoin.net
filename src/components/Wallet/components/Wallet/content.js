@@ -1,9 +1,9 @@
 export const version = 'v0.19.0';
 export const downloads = [{
-  platform: 'downloads.wallet.macos',
+  platform: 'wallet.downloads.macos',
   icon: 'macos',
   builds: [{
-    name: 'downloads.wallet.withElectron',
+    name: 'wallet.downloads.withElectron',
     architectures: [{
       name: '',
       download: 'http://downloads.skycoin.net/wallet/skycoin-0.19.0-gui-osx-x64.dmg',
@@ -12,7 +12,7 @@ export const downloads = [{
       filesize: '44mb',
     }],
   }, {
-    name: 'downloads.wallet.withoutElectron',
+    name: 'wallet.downloads.withoutElectron',
     architectures: [{
       name: '',
       download: 'http://downloads.skycoin.net/wallet/skycoin-0.19.0-bin-osx-darwin-x64.zip',
@@ -22,10 +22,10 @@ export const downloads = [{
     }],
   }],
 }, {
-  platform: 'downloads.wallet.windows',
+  platform: 'wallet.downloads.windows',
   icon: 'windows',
   builds: [{
-    name: 'downloads.wallet.withElectron',
+    name: 'wallet.downloads.withElectron',
     architectures: [{
       name: '64bit',
       download: 'http://downloads.skycoin.net/wallet/skycoin-0.19.0-gui-win-setup.exe',
@@ -34,7 +34,7 @@ export const downloads = [{
       filesize: '68mb',
     }],
   }, {
-    name: 'downloads.wallet.withoutElectron',
+    name: 'wallet.downloads.withoutElectron',
     architectures: [{
       name: '32bit',
       download: 'http://downloads.skycoin.net/wallet/skycoin-0.19.0-bin-win-x86.zip',
@@ -50,10 +50,10 @@ export const downloads = [{
     }],
   }],
 }, {
-  platform: 'downloads.wallet.linux',
+  platform: 'wallet.downloads.linux',
   icon: 'linux',
   builds: [{
-    name: 'downloads.wallet.withElectron',
+    name: 'wallet.downloads.withElectron',
     architectures: [{
       name: '64bit',
       download: 'http://downloads.skycoin.net/wallet/skycoin-0.19.0-gui-linux-x64.AppImage',
@@ -62,7 +62,7 @@ export const downloads = [{
       filesize: '59mb',
     }],
   }, {
-    name: 'downloads.wallet.withoutElectron',
+    name: 'wallet.downloads.withoutElectron',
     architectures: [{
       name: '32bit',
       download: 'http://downloads.skycoin.net/wallet/skycoin-0.19.0-bin-linux-arm.tar.gz',

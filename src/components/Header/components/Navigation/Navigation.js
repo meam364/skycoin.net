@@ -55,7 +55,7 @@ const Navigation = ({ white }) => (
     </StyledLink>
 
     <StyledLink white={white} to="downloads">
-      <FormattedMessage id="header.navigation.downloads" />
+      <FormattedMessage id="header.navigation.wallet" />
     </StyledLink>
 
     <StyledLink white={white} href="http://explorer.skycoin.net" target="_blank">
@@ -64,6 +64,10 @@ const Navigation = ({ white }) => (
 
     <StyledLink white={white} href="http://blog.skycoin.net" target="_blank">
       <FormattedMessage id="header.navigation.blog" />
+    </StyledLink>
+
+    <StyledLink white={white} to="downloads#whitepapers">
+      <FormattedMessage id="header.navigation.whitepapers" />
     </StyledLink>
 
     <InlineHide xs sm>

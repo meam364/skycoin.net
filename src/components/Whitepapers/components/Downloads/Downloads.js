@@ -9,7 +9,7 @@ import Text from 'components/Text';
 import Table, { TableWrapper } from 'components/Table';
 import { COLORS, SPACE, BREAKPOINTS } from 'config';
 
-import downloads from './downloads';
+import content from './content';
 
 const StyledTable = Table.extend`
   @media (max-width: ${BREAKPOINTS.sm}rem) {
@@ -34,20 +34,20 @@ export default () => (
   <Container>
     <Box width={[1 / 1, 1 / 1, 2 / 3]} my={[5, 7]}>
       <Heading heavy as="h2" fontSize={[5, 6]} color="black" mb={[4, 6]} id="whitepapers">
-        <FormattedMessage id="downloads.whitepapers.heading" />
+        <FormattedMessage id="whitepapers.downloads.heading" />
       </Heading>
     </Box>
 
     <TableWrapper>
       <StyledTable>
         <tbody>
-          {downloads.map(({ name, download, filetype, filesize }, i) => (
+          {content.map(({ name, download, filetype, filesize }, i) => (
             <tr key={i}>
               <td>{name}</td>
 
               <td>
                 <a href={download}>
-                  <FormattedMessage id="downloads.whitepapers.download" />
+                  <FormattedMessage id="whitepapers.downloads.download" />
                   &nbsp;
                   ({filetype})
                 </a>

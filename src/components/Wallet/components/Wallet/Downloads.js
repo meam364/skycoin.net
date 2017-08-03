@@ -10,10 +10,10 @@ import Heading from 'components/Heading';
 import Text from 'components/Text';
 import Table, { TableWrapper } from 'components/Table';
 
-import { downloads, version } from './downloads';
+import { downloads, version } from './content';
 import * as icons from './icons';
 
-const Wallet = styled.div`
+const Wrapper = styled.div`
   border-top: 2px solid ${COLORS.gray[1]};
 `;
 
@@ -25,19 +25,19 @@ const Icon = styled.img`
 `;
 
 export default () => (
-  <Wallet>
+  <Wrapper>
     <Container>
       <Box width={[1 / 1, 1 / 1, 2 / 3]} my={[5, 7]}>
         <Heading heavy as="h2" fontSize={[5, 6]} color="black" mb={[4, 6]}>
-          <FormattedMessage id="downloads.wallet.heading" />
+          <FormattedMessage id="wallet.downloads.heading" />
         </Heading>
 
         <Text fontSize={[3, 3, 4]} color="black" heavy mb={[5, 7]}>
-          <FormattedMessage id="downloads.wallet.lead" />
+          <FormattedMessage id="wallet.downloads.lead" />
         </Text>
 
         <Text fontSize={[3, 3, 4]} color="gray.9" heavy>
-          <FormattedMessage id="downloads.wallet.build" values={{ version }} />
+          <FormattedMessage id="wallet.downloads.build" values={{ version }} />
         </Text>
       </Box>
 
@@ -66,7 +66,7 @@ export default () => (
 
                     <td>
                       <a href={architecture.download}>
-                        <FormattedMessage id="downloads.wallet.download" />
+                        <FormattedMessage id="wallet.downloads.download" />
                         &nbsp;
                         ({architecture.filetype})
                       </a>
@@ -74,7 +74,7 @@ export default () => (
 
                     <td>
                       <a href={architecture.torrent}>
-                        <FormattedMessage id="downloads.wallet.torrent" />
+                        <FormattedMessage id="wallet.downloads.torrent" />
                       </a>
                     </td>
 
@@ -97,5 +97,5 @@ export default () => (
         </Table>
       </TableWrapper>
     </Container>
-  </Wallet>
+  </Wrapper>
 );

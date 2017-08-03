@@ -3,7 +3,7 @@ export default {
     navigation: {
       distribution: 'Distribution',
       whitepapers: 'Описания',
-      downloads: 'Загрузки',
+      wallet: 'Загрузки',
       explorer: 'Обозреватель',
       blog: 'Blog',
       buy: 'Купить Skycoin',

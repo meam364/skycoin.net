@@ -18,11 +18,11 @@ const Header = ({ white }) => (
   <Wrapper>
     <Container>
       <Flex align="center" wrap>
-        <Box width={[1 / 1, 1 / 4]}>
+        <Box width={[1 / 1, 1 / 6]}>
           <Logo white={white} />
         </Box>
 
-        <Box width={[1 / 1, 3 / 4]}>
+        <Box width={[1 / 1, 5 / 6]}>
           <Navigation white={white} />
         </Box>
       </Flex>
