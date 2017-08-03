@@ -122,7 +122,7 @@ export default {
     },
   },
   whitepapers: {
-    title: 'TODO: Whitepapers',
+    title: '白皮书',
     description: 'TODO: Download Skycoin whitepapers.',
     downloads: {
       heading: '白皮书',
