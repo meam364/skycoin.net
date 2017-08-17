@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import { rem } from 'polished';
-import media from 'utils/media';
 
 import Text from '@skycoin/text';
 import { COLORS, SPACE } from '@skycoin/config';
+import { media } from '@skycoin/utils';
 
 // TODO: move to @skycoin/table
 export const TableWrapper = styled(Text).attrs({

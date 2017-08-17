@@ -27,11 +27,11 @@ export default () => (
       <Box width={[1 / 1, 1 / 2]} pr={[0, 4, 4]}>
         <Box width={[1 / 1, 1 / 1, 5 / 6]} py={[7, 8]}>
           <Heading heavy as="h2" fontSize={[5, 6]} color="black">
-            <FormattedMessage id="heading" />
+            <FormattedMessage id="roadmap.heading" />
           </Heading>
 
           <Text heavy mb={[3, 4]} fontSize={[2, 2, 3]} color="black">
-            <FormattedMessage id="blurb" />
+            <FormattedMessage id="roadmap.lead" />
           </Text>
 
           <Flag
@@ -39,7 +39,7 @@ export default () => (
             render={() => (
               <Text heavy mb={0} fontSize={[2, 2, 3]} color="base">
                 <Link to="roadmap">
-                  <FormattedMessage id="roadmapLink" />
+                  <FormattedMessage id="roadmap.link" />
                 </Link>
               </Text>
             )}
@@ -49,7 +49,7 @@ export default () => (
           <Icon />
 
           <Text heavy fontSize={[2, 2, 3]} my={[3, 4]} color="black">
-            <FormattedMessage id="community" />
+            <FormattedMessage id="community.lead" />
           </Text>
 
           <Button
@@ -60,7 +60,7 @@ export default () => (
             fontSize={[1, 3]}
             target="_blank"
           >
-            <FormattedMessage id="communityLink" />
+            <FormattedMessage id="community.link" />
           </Button>
         </Box>
       </Box>
