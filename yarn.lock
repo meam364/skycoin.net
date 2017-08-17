@@ -2,6 +2,66 @@
 # yarn lockfile v1
 
 
+"@skycoin/base@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@skycoin/base/-/base-0.1.0.tgz#fefd60411e974d3ecf803eeb0dde9d294e7f4b16"
+
+"@skycoin/button@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@skycoin/button/-/button-0.1.1.tgz#9f66ad220dc4da8f9778b2ccc4930b364ddee55b"
+
+"@skycoin/buy-buttons@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@skycoin/buy-buttons/-/buy-buttons-0.1.2.tgz#aefd0bcd25f5f57562b28c957ddd3d30eb7e6003"
+
+"@skycoin/buy@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@skycoin/buy/-/buy-0.1.2.tgz#d643685ad028b420f4d5a91bc713a742dac1544b"
+
+"@skycoin/config@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@skycoin/config/-/config-0.1.1.tgz#014e71cf3029848c154d2affd70cab8fd6290ff8"
+
+"@skycoin/container@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@skycoin/container/-/container-0.1.1.tgz#b9a300878fc2ec41ae1157f2cf6deb596465a3c7"
+
+"@skycoin/footer@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@skycoin/footer/-/footer-0.1.2.tgz#58269bf9820b7a5af77328ad47195e9241b60ba0"
+
+"@skycoin/header@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@skycoin/header/-/header-0.1.2.tgz#6faf7a9cfa5356bdf2afac874cd21271d91de599"
+
+"@skycoin/heading@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@skycoin/heading/-/heading-0.1.1.tgz#17284bce0f197c3885f80c9532c958b219b136ff"
+
+"@skycoin/input@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@skycoin/input/-/input-0.1.1.tgz#95f0e13970ac470fbffbbfb5d33b72b013cdede4"
+
+"@skycoin/link@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@skycoin/link/-/link-0.1.0.tgz#0b668c0e1ce934770ad1a57b270ba5c7b9d5487b"
+
+"@skycoin/logo@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@skycoin/logo/-/logo-0.1.2.tgz#75cd31b9a2cceee5c96c2d7a33fabc30f9f0afbe"
+
+"@skycoin/modal@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@skycoin/modal/-/modal-0.1.1.tgz#81c2eadaab8919af8cd3dab0f092d6e766900d86"
+
+"@skycoin/text@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@skycoin/text/-/text-0.1.1.tgz#d412eb7499f31c3e31beecd805ceea51c6a83b0e"
+
+"@skycoin/utils@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@skycoin/utils/-/utils-0.1.2.tgz#52379b2f7080c7715dbc4a10bf4cc5fdbd410769"
+
 "@timer/detect-port@1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@timer/detect-port/-/detect-port-1.1.3.tgz#1383abd67f9a5d683df5276f8a92d60bdf9abb90"
@@ -340,13 +400,6 @@ aws-sign2@~0.6.0:
 aws4@^1.2.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
-
-axios@^0.16.2:
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.16.2.tgz#ba4f92f17167dfbab40983785454b9ac149c3c6d"
-  dependencies:
-    follow-redirects "^1.2.3"
-    is-buffer "^1.1.5"
 
 axobject-query@^0.1.0:
   version "0.1.0"
@@ -1764,7 +1817,7 @@ debug@2.6.7:
   dependencies:
     ms "2.0.0"
 
-debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.4.5, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8:
+debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8:
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -2582,12 +2635,6 @@ flat@^2.0.1:
 flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
-
-follow-redirects@^1.2.3:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.2.4.tgz#355e8f4d16876b43f577b0d5ce2668b9723214ea"
-  dependencies:
-    debug "^2.4.5"
 
 for-in@^1.0.1:
   version "1.0.2"

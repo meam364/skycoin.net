@@ -22,3 +22,5 @@ const Meta = ({ locale }) => (
 Meta.propTypes = {
   locale: PropTypes.string.isRequired,
 };
+
+export default Meta;

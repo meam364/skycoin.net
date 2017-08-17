@@ -10,10 +10,13 @@ import zh from 'react-intl/locale-data/zh';
 import ru from 'react-intl/locale-data/ru';
 
 import { COLORS, BREAKPOINTS, SPACE, FONT_SIZES, FLAGS } from '@skycoin/config';
+import Header from '@skycoin/header';
+import Footer from '@skycoin/footer';
 
-import * as locales from 'locales';
-import Routes from '../Routes';
+import Announcement from '../Announcement';
+import GetStarted from '../GetStarted';
 import Meta from '../Meta';
+import Routes from '../Routes';
 import ScrollToTop from '../ScrollToTop';
 
 addLocaleData([...zh, ...ru]);
@@ -27,14 +30,17 @@ const theme = {
 
 const App = ({ locale, ...props }) => (
   <FlagsProvider flags={FLAGS}>
-    <IntlProvider locale={locale} messages={flatten(locales[locale])}>
-      <div>
-        <Meta locale={locale} />
-
-        <ThemeProvider theme={theme}>
+    <IntlProvider locale={locale}>
+      <ThemeProvider theme={theme}>
+        <div>
+          <Meta locale={locale} />
+          <Announcement />
+          <Header />
           <Routes {...props} />
-        </ThemeProvider>
-      </div>
+          <GetStarted />
+          <Footer />
+        </div>
+      </ThemeProvider>
     </IntlProvider>
   </FlagsProvider>
 );
