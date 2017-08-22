@@ -113,9 +113,13 @@ export default {
       },
     },
   },
+  whitepapers: {
+    title: 'Skycoin Consensus Whitepapers',
+    description: 'Download whitepapers.',
+  },
   downloads: {
     title: 'Downloads',
-    description: 'Download Skycoin wallet and whitepapers.',
+    description: 'Download Skycoin wallet.',
     wallet: {
       heading: 'Wallet',
       lead: 'For simple use, download the Desktop wallet. For advanced use, or slow connections, the CLI wallet provides a UI that runs directly in your browser.',

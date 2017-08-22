@@ -17,7 +17,7 @@ export default [{
     href: 'http://blog.skycoin.net',
   }, {
     label: 'footer.whitepapers',
-    to: 'downloads/#whitepapers',
+    to: '/whitepapers',
   }, {
     label: 'footer.blockchain',
     href: 'http://explorer.skycoin.net/blocks',

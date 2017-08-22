@@ -6,6 +6,7 @@ import Home from '../Home';
 import Downloads from '../Downloads';
 import Infographics from '../Infographics';
 import Distribution from '../Distribution';
+import WhitepapersPage from '../WhitepapersPage';
 import NotFound from '../NotFound';
 
 const Routes = ({ match }) => {
@@ -15,9 +16,10 @@ const Routes = ({ match }) => {
     <Switch>
       <Route path={`${prefix}`} exact component={Home} />
       <Route path={`${prefix}downloads`} exact component={Downloads} />
+      <Route path={`${prefix}whitepapers`} component={WhitepapersPage} />
       <Route path={`${prefix}infographics`} exact component={Infographics} />
       <Route path={`${prefix}distribution`} exact component={Distribution} />
-      <Redirect from={`${prefix}whitepapers.html`} to={`${prefix}downloads#whitepapers`} />
+      <Redirect from={`${prefix}whitepapers.html`} to={`${prefix}whitepapers`} />
       <Redirect from={`${prefix}infographics.html`} to={`${prefix}infographics`} />
       <Redirect from={`${prefix}downloads.html`} to={`${prefix}downloads`} />
       <Redirect from={`${prefix}faq.html`} to={`${prefix}`} />
