@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Box } from 'grid-styled'
+import { Box } from 'grid-styled';
 import { FormattedMessage } from 'react-intl';
 import Header from 'components/Header';
 import Heading from 'components/Heading';
@@ -26,7 +26,14 @@ const ArchitectureOverview = () => (
       <Header border />
       <Container>
         <Box my={[5, 7]}>
-          <Heading heavy as="h2" fontSize={[5, 6]} color="black" mb={[4, 6]} id="architectureOverview">
+          <Heading
+            heavy
+            as="h2"
+            fontSize={[5, 6]}
+            color="black"
+            mb={[4, 6]}
+            id="architectureOverview"
+          >
             <FormattedMessage id="architectureOverview.heading" />
           </Heading>
         </Box>
