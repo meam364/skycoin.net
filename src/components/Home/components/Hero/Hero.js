@@ -5,15 +5,18 @@ import { Flag } from 'flag';
 
 import { COLORS } from 'config';
 import media from 'utils/media';
+import Container from 'components/Container';
 import Header from 'components/Header';
+import Nav from './components/Nav';
 import Map from './components/Map';
 import Introduction from './components/Introduction';
 import Announcement from './components/Announcement';
 
-const Hero = styled.div`
+const Wrapper = styled.div`
   background-image: linear-gradient(-110deg, ${COLORS.base}, ${COLORS.violet[4]});
   position: relative;
-  height: 33rem;
+  min-height: 33rem;
+  height: auto;
 
   ${media.sm.css`
     height: 40rem;
@@ -29,8 +32,14 @@ const StyledFlex = styled(Flex)`
   z-index: 1;
 `;
 
-export default () => (
-  <Hero>
+const NavWrapper = styled(Box)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Hero = () => (
+  <Wrapper>
     <Map />
 
     <StyledFlex column justify="space-between">
@@ -38,7 +47,16 @@ export default () => (
         <Header white />
       </Box>
       <Box>
-        <Introduction />
+        <Container>
+          <Flex row wrap>
+            <Box width={[1 / 1, 1 / 2]}>
+              <Introduction />
+            </Box>
+            <NavWrapper width={[1 / 1, 1 / 2]}>
+              <Nav />
+            </NavWrapper>
+          </Flex>
+        </Container>
       </Box>
 
       <Box>
@@ -50,5 +68,7 @@ export default () => (
         />
       </Box>
     </StyledFlex>
-  </Hero>
+  </Wrapper>
 );
+
+export default Hero;

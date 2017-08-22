@@ -41,6 +41,9 @@ export default {
     heading: 'Страница не найдена',
     home: 'Главная страница Skycoin',
   },
+  architectureOverview: {
+    heading: 'Architecture overview',
+  },
   getStarted: {
     heading: 'Начать со Skycoin',
     buy: 'Купить Skycoin',
@@ -56,6 +59,19 @@ export default {
         get: 'Получить Кошелёк',
         blurb: 'Кошелёк позволит вам держать в безопасности ваши Skycoin.{break}Он быстр, безопасен и бесплатен.',
       },
+    },
+    nav: {
+      architecture: 'Architecture Overview',
+      whitepapers: 'Skycoin Consensus White Papers',
+      blockchain: 'Skycoin Blockchain',
+      cx: 'CX',
+      cxo: 'CXO',
+      skywire: 'Skywire',
+      viscript: 'Viscript',
+      cryptoSphere: 'CryptoSphere VPN',
+      messenger: 'Sky-messenger',
+      wallet: 'Mobile Wallet',
+      bbs: 'BBS',
     },
     distributionEvent: {
       heading: 'Distribution event',

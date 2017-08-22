@@ -1,14 +1,13 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import Container from 'components/Container';
 import Button from 'components/Button';
 import Buy from 'components/Buy';
 import Heading from 'components/Heading';
 import Text from 'components/Text';
 
 export default () => (
-  <Container>
+  <div>
     <Heading heavy as="h1" color="white" fontSize={[6, 7, 8]} mb={7}>
       <FormattedMessage id="home.hero.heading" values={{ break: <br /> }} />
     </Heading>
@@ -24,5 +23,5 @@ export default () => (
     <Text heavy color="white" fontSize={[1, 3]} mt={7}>
       <FormattedMessage id="home.hero.wallet.blurb" values={{ break: <br /> }} />
     </Text>
-  </Container>
+  </div>
 );

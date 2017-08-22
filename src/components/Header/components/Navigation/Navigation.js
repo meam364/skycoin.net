@@ -15,6 +15,9 @@ const Wrapper = styled.div`
   font-size: ${rem(FONT_SIZES[1])};
   padding-top: ${rem(SPACE[4])};
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 
   ${media.sm.css`
     font-size: ${rem(FONT_SIZES[3])};

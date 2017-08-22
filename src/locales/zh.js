@@ -41,6 +41,9 @@ export default {
     heading: '页面没有找到',
     home: '天空币首页',
   },
+  architectureOverview: {
+    heading: 'Architecture overview',
+  },
   getStarted: {
     heading: '开始天空币之旅',
     buy: '购买天空币',
@@ -56,6 +59,19 @@ export default {
         get: '下载钱包',
         blurb: '天空币驱动着新一代互联网革命。{break}行动起来吧!',
       },
+    },
+    nav: {
+      architecture: 'Architecture Overview',
+      whitepapers: 'Skycoin Consensus White Papers',
+      blockchain: 'Skycoin Blockchain',
+      cx: 'CX',
+      cxo: 'CXO',
+      skywire: 'Skywire',
+      viscript: 'Viscript',
+      cryptoSphere: 'CryptoSphere VPN',
+      messenger: 'Sky-messenger',
+      wallet: 'Mobile Wallet',
+      bbs: 'BBS',
     },
     distributionEvent: {
       heading: 'Distribution event',

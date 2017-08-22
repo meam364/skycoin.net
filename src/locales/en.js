@@ -41,6 +41,9 @@ export default {
     heading: 'Page not found',
     home: 'Skycoin homepage',
   },
+  architectureOverview: {
+    heading: 'Architecture overview',
+  },
   getStarted: {
     heading: 'Get started with Skycoin',
     buy: 'Buy Skycoin',
@@ -56,6 +59,19 @@ export default {
         get: 'Get Wallet',
         blurb: 'Skycoin is driving the new internet revolution.',
       },
+    },
+    nav: {
+      architecture: 'Architecture Overview',
+      whitepapers: 'Skycoin Consensus White Papers',
+      blockchain: 'Skycoin Blockchain',
+      cx: 'CX',
+      cxo: 'CXO',
+      skywire: 'Skywire',
+      viscript: 'Viscript',
+      cryptoSphere: 'CryptoSphere VPN',
+      messenger: 'Sky-messenger',
+      wallet: 'Mobile Wallet',
+      bbs: 'BBS',
     },
     distributionEvent: {
       heading: 'Distribution event',
