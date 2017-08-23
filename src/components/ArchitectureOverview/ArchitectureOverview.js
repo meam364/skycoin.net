@@ -6,7 +6,6 @@ import Header from 'components/Header';
 import Heading from 'components/Heading';
 import Footer from 'components/Footer';
 import Container from 'components/Container';
-import GetStarted from 'components/GetStarted';
 import Table from './components/Table';
 
 const Page = styled.div`
@@ -41,7 +40,6 @@ const ArchitectureOverview = () => (
       <Container>
         <Table />
       </Container>
-      <GetStarted />
     </Wrapper>
     <Footer />
   </Page>
