@@ -8,7 +8,7 @@ export default {
     {
       component: 'Skycoin',
       replaces: 'Bitcoin',
-      repo: 'https://github.com/skycoin/skycoin.net',
+      repo: 'https://github.com/skycoin/skycoin',
     },
     {
       component: 'CX',
