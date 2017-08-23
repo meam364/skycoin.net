@@ -48,7 +48,7 @@ const Hero = () => (
       </Box>
       <Box>
         <Container>
-          <Flex row wrap>
+          <Flex row wrap align="center">
             <Box width={[1 / 1, 1 / 2]}>
               <Introduction />
             </Box>
