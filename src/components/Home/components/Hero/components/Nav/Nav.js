@@ -35,34 +35,34 @@ const Nav = () => (
     <StyledLink to="/architecture-overview">
       <FormattedMessage id="home.nav.architecture" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="/whitepapers">
       <FormattedMessage id="home.nav.whitepapers" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="https://github.com/skycoin/skycoin">
       <FormattedMessage id="home.nav.blockchain" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="https://github.com/skycoin/cx">
       <FormattedMessage id="home.nav.cx" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="https://github.com/skycoin/cxo">
       <FormattedMessage id="home.nav.cxo" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="https://github.com/skycoin/skywire">
       <FormattedMessage id="home.nav.skywire" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="https://github.com/skycoin/viscript">
       <FormattedMessage id="home.nav.viscript" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="https://github.com/skycoin/skywire">
       <FormattedMessage id="home.nav.cryptoSphere" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="https://github.com/skycoin/net">
       <FormattedMessage id="home.nav.messenger" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
-      <FormattedMessage id="home.nav.wallet" />
+    <StyledLink disabled href="https://github.com/skycoin/skycoin-mobilewallet">
+      <FormattedMessage id="home.nav.mobileWallet" />
     </StyledLink>
-    <StyledLink disabled href="https://github.com/skycoin/skycoin.net">
+    <StyledLink disabled href="https://github.com/skycoin/bbs">
       <FormattedMessage id="home.nav.bbs" />
     </StyledLink>
   </Wrapper>

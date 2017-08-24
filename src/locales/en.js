@@ -70,7 +70,7 @@ export default {
       viscript: 'Viscript',
       cryptoSphere: 'CryptoSphere VPN',
       messenger: 'Sky-messenger',
-      wallet: 'Mobile Wallet',
+      mobileWallet: 'Mobile Wallet',
       bbs: 'BBS',
     },
     distributionEvent: {
