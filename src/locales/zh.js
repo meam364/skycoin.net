@@ -106,7 +106,7 @@ export default {
       link: '深入了解网络共识',
     },
     miner: {
-      label: '即将推出',
+      label: 'Read more',
       heading: '天空链矿机：驱动下一代互联网的硬件',
     },
     roadmap: {
