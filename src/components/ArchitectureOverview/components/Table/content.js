@@ -13,7 +13,7 @@ export default {
     {
       component: 'CX',
       replaces: 'Ethereum',
-      repo: 'https://github.com/skycoin/cxo',
+      repo: 'https://github.com/skycoin/cx',
     },
     {
       component: 'CXO',
@@ -33,11 +33,13 @@ export default {
     {
       component: 'CryptoSphere',
       replaces: 'OpenVPN',
+      repo: 'https://github.com/skycoin/skywire',
     },
     {
       component: 'Sky-Messenger',
       repo: 'https://github.com/skycoin/net',
       replaces: 'Tox, Telegram, Skype, Wechat, WhatsApp',
+      repo: 'https://github.com/skycoin/net',
     },
     {
       component: 'BBS',
