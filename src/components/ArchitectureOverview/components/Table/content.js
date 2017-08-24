@@ -37,7 +37,6 @@ export default {
     },
     {
       component: 'Sky-Messenger',
-      repo: 'https://github.com/skycoin/net',
       replaces: 'Tox, Telegram, Skype, Wechat, WhatsApp',
       repo: 'https://github.com/skycoin/net',
     },
