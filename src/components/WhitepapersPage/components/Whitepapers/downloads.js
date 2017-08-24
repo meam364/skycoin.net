@@ -23,4 +23,9 @@ export default [{
   download: 'http://downloads.skycoin.net/whitepapers/sznajd2-a-community-aware-opinion-dynamics-model.pdf',
   filetype: '.pdf',
   filesize: '467kb',
+}, {
+  name: 'Roadmap',
+  download: 'https://downloads.skycoin.net/roadmap/Skycoin-Roadmap-11x17.pdf',
+  filetype: '.pdf',
+  filesize: '65kb',
 }];
