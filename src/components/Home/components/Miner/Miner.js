@@ -6,12 +6,13 @@ import { FormattedMessage } from 'react-intl';
 import Container from 'components/Container';
 import Heading from 'components/Heading';
 import Label from 'components/Label';
+import Link from 'components/Link';
 
 import miner from './miner.png';
 import background from './background.png';
 
 // TODO: update gradient to use global colors
-const Miner = styled.div`
+const Wrapper = styled.div`
   background:
     url(${background}) center center / cover,
     linear-gradient(-155deg, #686e96 0%, #373b5c 100%);
@@ -24,24 +25,36 @@ const Graphic = styled.img.attrs({
   max-width: 100%;
 `;
 
-export default () => (
-  <Miner>
+const StyledLink = styled(Link)`
+  text-decoration: none;
+`;
+
+const Miner = () => (
+  <Wrapper>
     <Container>
       <Flex py={[7, 8]} align="center">
         <Box width={[1 / 3, 1 / 4]} mr={[4, 6]}>
-          <Graphic />
+          <StyledLink href="https://blog.skycoin.net/statement/skywire-miner-hardware-for-the-next-internet/">
+            <Graphic />
+          </StyledLink>
         </Box>
 
         <Box width={[2 / 3, 3 / 4]}>
-          <Label>
-            <FormattedMessage id="home.miner.label" />
-          </Label>
+          <StyledLink href="https://blog.skycoin.net/statement/skywire-miner-hardware-for-the-next-internet/">
+            <Label>
+              <FormattedMessage id="home.miner.label" />
+            </Label>
+          </StyledLink>
 
-          <Heading heavy as="h2" mt={[4, 5]} mb={0} fontSize={[5, 6]} color="white">
-            <FormattedMessage id="home.miner.heading" />
-          </Heading>
+          <StyledLink href="https://blog.skycoin.net/statement/skywire-miner-hardware-for-the-next-internet/">
+            <Heading heavy as="h2" mt={[4, 5]} mb={0} fontSize={[5, 6]} color="white">
+              <FormattedMessage id="home.miner.heading" />
+            </Heading>
+          </StyledLink>
         </Box>
       </Flex>
     </Container>
-  </Miner>
+  </Wrapper>
 );
+
+export default Miner;
