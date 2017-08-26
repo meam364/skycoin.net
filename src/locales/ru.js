@@ -108,7 +108,7 @@ export default {
       link: 'Узнать о Сетевом Консенсусе',
     },
     miner: {
-      label: 'Coming soon',
+      label: 'Read more',
       heading: 'Skywire Miner: hardware for the new internet',
     },
     roadmap: {
