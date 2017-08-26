@@ -1,27 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Flex, Box } from 'grid-styled';
-import { rem } from 'polished';
 import { FormattedMessage } from 'react-intl';
 import { Flag } from 'flag';
 
 import Text from 'components/Text';
 import Heading from 'components/Heading';
-import Button from 'components/Button';
+import Label from 'components/Label';
 import Container from 'components/Container';
-import Divider from 'components/Divider';
 import Link from 'components/Link';
 
 import Timeline from './components/Timeline';
-import community from './community.png';
 
-const Icon = styled.img.attrs({
-  src: community,
-})`
-  width: ${rem(60)};
-`;
-
-export default () => (
+const Roadmap = () => (
   <Container>
     <Flex wrap>
       <Box width={[1 / 1, 1 / 2]} pr={[0, 4, 4]}>
@@ -30,7 +20,21 @@ export default () => (
             <FormattedMessage id="home.roadmap.heading" />
           </Heading>
 
-          <Text heavy mb={[3, 4]} fontSize={[2, 2, 3]} color="black">
+          <Flex mb={2}>
+            <Link target="_blank" href="https://downloads.skycoin.net/roadmap/Skycoin-Roadmap-11x17.pdf">
+              <Label>
+                <FormattedMessage id="home.roadmap.link" />
+              </Label>
+            </Link>
+          </Flex>
+
+          <Link target="_blank" href="https://downloads.skycoin.net/roadmap/Skycoin%2BRoadmap-Mobile-2017-1-01.jpg">
+            <Label>
+              <FormattedMessage id="home.roadmap.mobileLink" />
+            </Label>
+          </Link>
+
+          <Text heavy my={[3, 4]} fontSize={[2, 2, 3]} color="black">
             <FormattedMessage id="home.roadmap.blurb" />
           </Text>
 
@@ -44,24 +48,6 @@ export default () => (
               </Text>
             )}
           />
-
-          <Divider />
-          <Icon />
-
-          <Text heavy fontSize={[2, 2, 3]} my={[3, 4]} color="black">
-            <FormattedMessage id="home.roadmap.community" />
-          </Text>
-
-          <Button
-            outlined
-            big
-            href="https://t.me/Skycoin"
-            color="base"
-            fontSize={[1, 3]}
-            target="_blank"
-          >
-            <FormattedMessage id="home.roadmap.communityLink" />
-          </Button>
         </Box>
       </Box>
 
@@ -71,3 +57,5 @@ export default () => (
     </Flex>
   </Container>
 );
+
+export default Roadmap;

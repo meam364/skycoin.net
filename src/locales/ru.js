@@ -50,11 +50,13 @@ export default {
     wallet: 'Получить Кошелёк',
   },
   home: {
-    title: 'Основы нового интернета',
+    title: 'Skycoin is building the new internet.',
     description: 'Skycoin спроектирован как воплощение оригинальных идей Сатоши и для преодоления проблем Bitcoin.',
     hero: {
       heading: 'Основы{break}нового интернета.',
       buy: 'Купить Skycoin',
+      community: 'Community',
+      whitepapers: 'Whitepapers',
       wallet: {
         get: 'Получить Кошелёк',
         blurb: 'Кошелёк позволит вам держать в безопасности ваши Skycoin.{break}Он быстр, безопасен и бесплатен.',
@@ -113,6 +115,8 @@ export default {
       heading: 'План работ',
       blurb: 'Разработку Skycoin можно отслеживать на Github. В ближайшие месяцы мы будем предлагать награду за правку ошибок, дизайн и разработку.',
       roadmapLink: 'Посмотреть подробный план работ',
+      link: 'See our roadmap [pdf]',
+      mobileLink: 'Skycoin Roadmap Mobile 2017',
       community: 'Чтобы быть в курсе последних обновлений или приступить к разработке, присоединяйтесь к Skycoin в Telegram.',
       communityLink: 'Присоединиться к сообществу',
       timeline: {

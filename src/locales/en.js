@@ -50,11 +50,13 @@ export default {
     wallet: 'Get Wallet',
   },
   home: {
-    title: 'Foundations for the new internet',
+    title: 'Skycoin is building the new internet.',
     description: 'Skycoin is designed to implement Satoshi\'s original vision and fix the problems with Bitcoin.',
     hero: {
       heading: 'Foundations for{break}the new internet.',
       buy: 'Buy Skycoin',
+      community: 'Community',
+      whitepapers: 'Whitepapers',
       wallet: {
         get: 'Get Wallet',
         blurb: 'Skycoin is driving the new internet revolution.',
@@ -113,6 +115,8 @@ export default {
       heading: 'Roadmap',
       blurb: 'Visit GitHub to follow or contribute to Skycoin’s continued development and deployment. We will be opening bounties for bug fixes, design and development in the coming months.',
       roadmapLink: 'See the full roadmap',
+      link: 'See our roadmap [pdf]',
+      mobileLink: 'Skycoin Roadmap Mobile 2017',
       community: 'To keep up to date with Skycoin’s latest developments or to start contributing, join Skycoin on Telegram.',
       communityLink: 'Join the community',
       timeline: {

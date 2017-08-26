@@ -50,11 +50,13 @@ export default {
     wallet: '下载钱包',
   },
   home: {
-    title: '下一代互联网的基石',
+    title: 'Skycoin is building the new internet.',
     description: '天空币的设计是用来实现中本聪对比特币的原初规划，并解决比特币的现存问题。',
     hero: {
       heading: '下一代互联网的基石',
       buy: '购买天空币',
+      community: 'Community',
+      whitepapers: 'Whitepapers',
       wallet: {
         get: '下载钱包',
         blurb: '天空币驱动着新一代互联网革命。{break}行动起来吧!',
@@ -113,6 +115,8 @@ export default {
       heading: '路线图',
       blurb: '可以在Github上跟进开发进程。我们即将启动奖励机制，以便奖励那些提供漏洞修复、设计、或其他工作的社区成员。',
       roadmapLink: '查看完整的路线图',
+      link: 'See our roadmap [pdf]',
+      mobileLink: 'Skycoin Roadmap Mobile 2017',
       community: '加入天空币Telegram群，持续跟进开发动态，为社区出力。',
       communityLink: '加入社区',
       timeline: {

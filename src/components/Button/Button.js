@@ -15,6 +15,7 @@ export default styled(Link)`
   font-weight: 700;
   box-sizing: border-box;
   text-decoration: none;
+  text-align: center;
 
   border-radius: ${props => (props.pill ? BORDER_RADIUS.pill : BORDER_RADIUS.base)};
   box-shadow: ${BOX_SHADOWS.base};
