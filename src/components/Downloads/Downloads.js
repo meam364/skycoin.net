@@ -6,7 +6,10 @@ import { injectIntl } from 'react-intl';
 import GetStarted from 'components/GetStarted';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+import Whitepappers from 'components/WhitepapersPage/components/Whitepapers';
+import Assets from './components/Assets';
 import Wallet from './components/Wallet';
+import Roadmap from './components/Roadmap';
 
 const Downloads = ({ intl }) => (
   <div>
@@ -17,9 +20,12 @@ const Downloads = ({ intl }) => (
         content={intl.formatMessage({ id: 'downloads.description' })}
       />
     </Helmet>
-    <Header />
+    <Header border />
 
     <Wallet />
+    <Whitepappers />
+    <Roadmap />
+    <Assets />
 
     <GetStarted />
     <Footer />

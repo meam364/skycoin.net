@@ -152,6 +152,12 @@ export default {
       heading: '白皮书',
       download: '下载',
     },
+    assets: {
+      heading: 'Branding assets',
+    },
+    roadmap: {
+      heading: 'Roadmap',
+    },
   },
   infographics: {
     title: '信息图表',

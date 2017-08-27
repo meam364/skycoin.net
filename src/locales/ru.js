@@ -152,6 +152,12 @@ export default {
       heading: 'Описания',
       download: 'Скачать',
     },
+    assets: {
+      heading: 'Branding assets',
+    },
+    roadmap: {
+      heading: 'Roadmap',
+    },
   },
   infographics: {
     title: 'Инфографика',

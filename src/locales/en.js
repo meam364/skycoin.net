@@ -156,6 +156,12 @@ export default {
       heading: 'Whitepapers',
       download: 'Download',
     },
+    assets: {
+      heading: 'Branding assets',
+    },
+    roadmap: {
+      heading: 'Roadmap',
+    },
   },
   infographics: {
     title: 'Infographics',

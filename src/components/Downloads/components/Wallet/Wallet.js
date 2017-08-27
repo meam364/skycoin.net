@@ -4,7 +4,7 @@ import { Box } from 'grid-styled';
 import { FormattedMessage } from 'react-intl';
 import { rem } from 'polished';
 
-import { COLORS, SPACE } from 'config';
+import { SPACE } from 'config';
 import Container from 'components/Container';
 import Heading from 'components/Heading';
 import Text from 'components/Text';
@@ -13,10 +13,6 @@ import Table, { TableWrapper } from 'components/Table';
 import { downloads, version } from './downloads';
 import * as icons from './icons';
 
-const Wallet = styled.div`
-  border-top: 2px solid ${COLORS.gray[1]};
-`;
-
 const Icon = styled.img`
   max-width: ${rem(30)};
   display: block;
@@ -24,8 +20,8 @@ const Icon = styled.img`
   margin-bottom: ${rem(SPACE[2])};
 `;
 
-export default () => (
-  <Wallet>
+const Wallet = () => (
+  <div>
     <Container>
       <Box width={[1 / 1, 1 / 1, 2 / 3]} my={[5, 7]}>
         <Heading heavy as="h2" fontSize={[5, 6]} color="black" mb={[4, 6]}>
@@ -97,5 +93,7 @@ export default () => (
         </Table>
       </TableWrapper>
     </Container>
-  </Wallet>
+  </div>
 );
+
+export default Wallet;
