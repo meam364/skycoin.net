@@ -53,7 +53,7 @@ export default {
     title: 'Skycoin is building the new internet.',
     description: 'Skycoin спроектирован как воплощение оригинальных идей Сатоши и для преодоления проблем Bitcoin.',
     hero: {
-      heading: 'Основы{break}нового интернета.',
+      heading: 'Skycoin is building the new internet.',
       buy: 'Купить Skycoin',
       community: 'Community',
       whitepapers: 'Whitepapers',

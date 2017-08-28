@@ -53,7 +53,7 @@ export default {
     title: 'Skycoin is building the new internet.',
     description: '天空币的设计是用来实现中本聪对比特币的原初规划，并解决比特币的现存问题。',
     hero: {
-      heading: '下一代互联网的基石',
+      heading: 'Skycoin is building the new internet.',
       buy: '购买天空币',
       community: 'Community',
       whitepapers: 'Whitepapers',
