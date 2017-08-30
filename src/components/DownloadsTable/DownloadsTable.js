@@ -80,10 +80,12 @@ const DownladsTable = ({ title, list, id }) => (
 DownladsTable.propTypes = {
   title: PropTypes.string,
   list: PropTypes.arrayOf(PropTypes.object).isRequired,
+  id: PropTypes.string,
 };
 
 DownladsTable.defaultProps = {
   title: '',
+  id: '',
 };
 
 export default DownladsTable;
