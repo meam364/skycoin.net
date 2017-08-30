@@ -6,5 +6,5 @@ import downloads from './downloads';
 
 
 export default () => (
-  <DownloadsTable list={downloads} title="downloads.whitepapers.heading" />
+  <DownloadsTable list={downloads} title="downloads.whitepapers.heading" id="whitepapers" />
 );

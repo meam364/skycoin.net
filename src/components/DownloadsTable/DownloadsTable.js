@@ -39,11 +39,11 @@ const StyledTable = Table.extend`
   }
 `;
 
-const DownladsTable = ({ title, list }) => (
+const DownladsTable = ({ title, list, id }) => (
   <div>
     <Container>
       <Box width={[1 / 1, 1 / 1, 2 / 3]} my={[5, 7]}>
-        <Heading heavy as="h2" fontSize={[5, 6]} color="black" mb={[4, 6]} id="whitepapers">
+        <Heading heavy as="h2" fontSize={[5, 6]} color="black" mb={[4, 6]} id={id}>
           <FormattedMessage id={title} />
         </Heading>
       </Box>
