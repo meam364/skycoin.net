@@ -54,10 +54,6 @@ const InlineHide = Hide.extend`
 
 const Navigation = ({ white }) => (
   <Wrapper>
-    {!eventInProgress && <StyledLink white={white} to="distribution">
-      <FormattedMessage id="header.navigation.distribution" />
-    </StyledLink>}
-
     <StyledLink white={white} to="downloads">
       <FormattedMessage id="header.navigation.downloads" />
     </StyledLink>
@@ -76,12 +72,12 @@ const Navigation = ({ white }) => (
 
     <InlineHide xs sm>
       <Buy color={white ? 'white' : 'base'} pill outlined>
-        {eventInProgress ? (
+        {!eventInProgress ? (
+          <FormattedMessage id="header.navigation.buy" />
+        ) : (
           <span>
             <FormattedMessage id="header.navigation.distributionEvent" /> &rarr;
           </span>
-        ) : (
-          <FormattedMessage id="header.navigation.buy" />
         )}
       </Buy>
     </InlineHide>
