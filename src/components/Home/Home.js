@@ -28,7 +28,7 @@ const Home = ({ intl }) => (
 
     <Hero />
     <Blog />
-    {!eventInProgress && <DistributionEvent />}
+    {eventInProgress && <DistributionEvent />}
     <About />
     <Network />
     <Miner />
