@@ -21,10 +21,6 @@ const Wrapper = styled.div`
   ${media.sm.css`
     height: 40rem;
   `}
-
-  ${media.md.css`
-    height: 48rem;
-  `}
 `;
 
 const StyledFlex = styled(Flex)`

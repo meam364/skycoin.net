@@ -80,6 +80,9 @@ export default {
       body: 'The Skycoin distribution event has started. 1% (1 million) of Skycoin will be sold at a fixed price of 0.002 BTC / SKY.',
       participate: 'Participate',
     },
+    blog: {
+      heading: 'Latest news from blog',
+    },
     about: {
       heading: 'What is Skycoin?',
       lead: 'Skycoin is designed to implement Satoshi\'s original vision and fix the problems with Bitcoin.',

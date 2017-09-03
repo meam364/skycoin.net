@@ -80,6 +80,9 @@ export default {
       body: 'The Skycoin distribution event has started. 1% (1 million) of Skycoin will be sold at a fixed price of 0.002 BTC / SKY.',
       participate: 'Participate',
     },
+    blog: {
+      heading: 'Latest news from blog',
+    },
     about: {
       heading: '什么是天空币?',
       lead: '天空币的设计是用来实现中本聪对比特币的原初规划，并解决比特币的现存问题。',
