@@ -5,7 +5,7 @@ import axios from 'axios';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
 import { rem } from 'polished';
-import { SPACE, FONT_SIZES, FONT_FAMILIES } from 'config';
+import { SPACE, COLORS, FONT_SIZES, FONT_FAMILIES } from 'config';
 import { Flex } from 'grid-styled';
 
 import Heading from 'components/Heading';
@@ -30,6 +30,7 @@ const StyledLink = styled(Link)`
 
 const Wrapper = styled.div`
   padding: ${rem(SPACE[6])} 0;
+  border-bottom: 2px solid ${COLORS.gray[1]};
 `;
 
 export default class Blog extends PureComponent {
