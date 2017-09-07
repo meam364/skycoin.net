@@ -3,6 +3,7 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import styled from 'styled-components';
+import moment from 'moment';
 import { FormattedMessage } from 'react-intl';
 import { rem } from 'polished';
 import { SPACE, COLORS, FONT_SIZES, FONT_FAMILIES } from 'config';
@@ -58,9 +59,11 @@ export default class Blog extends PureComponent {
       .then((items) => {
         const posts = [];
         items.forEach((item) => {
+          const date = moment(new Date(item.getElementsByTagName('pubDate')[0].textContent)).format('DD.MM.YY');
           posts.push({
             title: item.getElementsByTagName('title')[0].textContent,
             href: item.getElementsByTagName('link')[0].textContent,
+            date,
           });
         });
 
@@ -72,7 +75,13 @@ export default class Blog extends PureComponent {
   }
 
   renderPost(item, key) {
-    return <StyledLink target="_blank" key={key} href={item.href}>{item.title}</StyledLink>;
+    return (
+      <StyledLink
+        target="_blank"
+        key={key}
+        href={item.href}
+      >{item.title} {item.date}</StyledLink>
+    );
   }
 
 
@@ -80,7 +89,7 @@ export default class Blog extends PureComponent {
     return (
       <Wrapper>
         <Container>
-          <Flex column>
+          <Flex column align="flex-start">
             <Heading heavy as="h2" fontSize={[5, 6]} color="black" mb={[4, 6]}>
               <FormattedMessage id="home.blog.heading" />
             </Heading>
