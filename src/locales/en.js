@@ -155,6 +155,10 @@ export default {
       download: 'Download',
       torrent: 'Torrent',
     },
+    bbs: {
+      heading: 'BBS',
+      lead: 'Skycoin BBS is a next generation decentralized social network built with the Skycoin Ecosystem.',
+    },
     whitepapers: {
       heading: 'Whitepapers',
       download: 'Download',
