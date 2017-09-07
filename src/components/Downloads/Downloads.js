@@ -10,6 +10,7 @@ import Whitepappers from 'components/WhitepapersPage/components/Whitepapers';
 import Assets from './components/Assets';
 import Wallet from './components/Wallet';
 import Roadmap from './components/Roadmap';
+import BBS from './components/BBS';
 
 const Downloads = ({ intl }) => (
   <div>
@@ -23,6 +24,7 @@ const Downloads = ({ intl }) => (
     <Header border />
 
     <Wallet />
+    <BBS />
     <Whitepappers />
     <Roadmap />
     <Assets />
