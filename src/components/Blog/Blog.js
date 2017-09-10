@@ -59,7 +59,7 @@ export default class Blog extends PureComponent {
       .then((items) => {
         const posts = [];
         items.forEach((item) => {
-          const date = moment(new Date(item.getElementsByTagName('pubDate')[0].textContent)).format('DD.MM.YY');
+          const date = moment(new Date(item.getElementsByTagName('pubDate')[0].textContent)).format('YYYY.DD.MM');
           posts.push({
             title: item.getElementsByTagName('title')[0].textContent,
             href: item.getElementsByTagName('link')[0].textContent,
@@ -80,7 +80,7 @@ export default class Blog extends PureComponent {
         target="_blank"
         key={key}
         href={item.href}
-      >{item.title} {item.date}</StyledLink>
+      >{item.date} &mdash; {item.title}</StyledLink>
     );
   }
 
