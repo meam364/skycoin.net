@@ -7,13 +7,13 @@ import { Flag } from 'flag';
 import Container from 'components/Container';
 import Heading from 'components/Heading';
 import Link from 'components/Link';
-import Label from 'components/Label';
 import Text from 'components/Text';
+import Button from 'components/Button';
 
-import network from './network.png';
+import obelisk from './obelisk.jpg';
 
 const Graphic = styled.img.attrs({
-  src: network,
+  src: obelisk,
 })`
   max-width: 100%;
   display: block;
@@ -24,17 +24,17 @@ export default () => (
     <Container>
       <Flex py={[7, 8]} align="center">
         <Box width={[1 / 1, 2 / 3]}>
-          <Label>
-            <FormattedMessage id="home.network.label" />
-          </Label>
-
-          <Heading heavy as="h2" my={[4, 5]} fontSize={[5, 6]} color="black">
-            <FormattedMessage id="home.network.heading" />
-          </Heading>
-
+          <Link href="https://blog.skycoin.net/statement/obelisk-the-skycoin-consensus-algorithm/" target="_blank">
+            <Heading heavy as="h2" my={[4, 5]} fontSize={[5, 6]} color="black">
+              <FormattedMessage id="home.network.heading" />
+            </Heading>
+          </Link>
           <Text fontSize={[3, 3, 4]} mb={0} color="black" heavy>
             <FormattedMessage id="home.network.body" />
           </Text>
+          <Button mt={4} to="/whitepapers" color="white" bg="base" big fontSize={[1, 3]}>
+            <FormattedMessage id="home.about.whitepaper" />
+          </Button>
 
           <Flag
             name="network"

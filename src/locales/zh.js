@@ -106,7 +106,7 @@ export default {
     },
     network: {
       label: '深入了解',
-      heading: '革命性的全新共识算法',
+      heading: 'Obelisk: The Skycoin Consensus Algorithm',
       body: '中本聪的设计,原本是要通过去大量中心化的计算机来控制比特币网络。现如今，比特币网络完全被三家矿池控制，比特币无法再以去中心化自居。天空币的共识算法才可以实现真正的区块链共识去中心化的设计。',
       link: '深入了解网络共识',
     },
