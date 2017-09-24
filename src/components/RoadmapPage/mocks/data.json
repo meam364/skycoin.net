@@ -1,0 +1,102 @@
+{
+    "data": [
+        {
+            "year": 2017,
+            "quarter": 1,
+            "weight": 1,
+            "status": "slated",
+            "title": "2k17 title",
+            "body": "some text",
+            "tags": ["minor"]
+        },
+        {
+            "year": 2017,
+            "quarter": 2,
+            "weight": 1,
+            "status": "slated",
+            "title": "2k17 title",
+            "body": "some text",
+            "tags": ["minor"]
+        },
+        {
+            "year": 2016,
+            "quarter": 1,
+            "weight": 1,
+            "status": "completed",
+            "title": "Short title of the milestone",
+            "body": "Amet porro natus deleniti dolorum odit accusamus. Esse quasi voluptas incidunt officia exercitationem, dolore! Odio incidunt dignissimos soluta architecto totam explicabo. Inventore corporis optio deserunt sequi aperiam nisi obcaecati officia.",
+            "tags": ["major-milestone"]
+        },
+        {
+            "year": 2015,
+            "quarter": 3,
+            "weight": 2,
+            "status": "in-progress",
+            "title": "Some title",
+            "body": "the short body text",
+            "tags": ["wallet", "develop"]
+        },
+        {
+            "year": 2015,
+            "quarter": 3,
+            "weight": 2,
+            "status": "in-progress",
+            "title": "Some title",
+            "body": "the short body text",
+            "tags": ["wallet", "develop"]
+        },
+        {
+            "year": 2015,
+            "quarter": 3,
+            "weight": 2,
+            "status": "in-progress",
+            "title": "Some title",
+            "body": "the short body text",
+            "tags": ["wallet", "develop"]
+        },
+        {
+            "year": 2015,
+            "quarter": 3,
+            "weight": 2,
+            "status": "in-progress",
+            "title": "Some title",
+            "body": "the short body text",
+            "tags": ["wallet", "develop"]
+        },
+        {
+            "year": 2015,
+            "quarter": 3,
+            "weight": 2,
+            "status": "in-progress",
+            "title": "Some title",
+            "body": "the short body text",
+            "tags": ["wallet", "develop"]
+        },
+        {
+            "year": 2016,
+            "quarter": 2,
+            "weight": 3,
+            "title": "new",
+            "status": "completed",
+            "body": "body text",
+            "tags": ["wallet"]
+        },
+        {
+            "year": 2016,
+            "quarter": 2,
+            "weight": 3,
+            "status": "completed",
+            "body": "body text",
+            "tags": ["wallet"]
+        },
+        {
+            "year": 2016,
+            "quarter": 1,
+            "weight": 2,
+            "status": "completed",
+            "title": "Uncompleted",
+            "body": "description of the task",
+            "tags": ["wallet", "design"]
+        }
+    ]
+}

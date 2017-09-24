@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "year": 2017,
+            "quarter": 1,
+            "weight": 1,
+            "status": "slated",
+            "title": "2k17 title",
+            "body": "some text",
+            "tags": ["minor"]
+        },
+        {
+            "year": 2017,
+            "quarter": 2,
+            "weight": 1,
+            "status": "slated",
+            "title": "2k17 title",
+            "body": "some text",
+            "tags": ["minor"]
+        },
+        {
+            "year": 2016,
+            "quarter": 1,
+            "weight": 1,
+            "status": "slated",
+            "title": "Short title of the milestone",
+            "body": "Amet porro natus deleniti dolorum odit accusamus. Esse quasi voluptas incidunt officia exercitationem, dolore! Odio incidunt dignissimos soluta architecto totam explicabo. Inventore corporis optio deserunt sequi aperiam nisi obcaecati officia.",
+            "tags": ["major-milestone"]
+        }
+    ]
+}
