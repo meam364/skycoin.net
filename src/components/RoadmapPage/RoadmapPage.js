@@ -36,14 +36,7 @@ export default class RoadmapPage extends PureComponent {
       return this.setState({ filtered: [] });
     }
 
-    if (id === 'all' && this.state.statusFilter !== 'all') {
-      this.setState({ filtered: [] });
-      this.onStatusSelect(this.state.statusFilter);
-    }
-
-    const list = this.state.filtered.length ? this.state.filtered : this.state.roadmap;
-
-    const filtered = list.filter(item => item.tags.includes(id));
+    const filtered = this.state.roadmap.filter(item => item.tags.includes(id));
 
     return this.setState({ filtered });
   }

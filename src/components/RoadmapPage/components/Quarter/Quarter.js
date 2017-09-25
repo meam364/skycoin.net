@@ -19,16 +19,17 @@ export default class Quarter extends PureComponent {
   render() {
     return (
       <div>
-        {this.props.list.map(item => (
-          <div>
+        {this.props.list.map((item, i) => (
+          <div key={i}>
             <Text>Q{item.list[0].quarter}</Text>
-            {item.list.map(roadmapItem => (
+            {item.list.map((roadmapItem, key) => (
               <Item
                 body={roadmapItem.body}
                 title={roadmapItem.title}
                 startRight={item.startRight}
                 tags={roadmapItem.tags}
                 status={roadmapItem.status}
+                key={key}
               />
             ))}
           </div>

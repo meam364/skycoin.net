@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { COLORS, FONT_FAMILIES, FONT_SIZES } from 'config';
+import { SPACE, COLORS, FONT_FAMILIES, FONT_SIZES } from 'config';
 import { rem } from 'polished';
 import Container from 'components/Container';
 import Line from './images/line.svg';
@@ -25,7 +25,7 @@ const Title = styled.div`
   font-family: ${FONT_FAMILIES.mono};
   font-size: ${rem(FONT_SIZES[1])};
   font-weight: 700;
-  margin: 0 auto;
+  margin: 0 auto ${rem(SPACE[5])};
 `;
 
 const Button = styled.button`

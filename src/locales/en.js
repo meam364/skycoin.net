@@ -193,6 +193,5 @@ export default {
   },
   roadmapPage: {
     heading: 'Development roadmap',
-    description: 'Development can be followed and contributed to on GitHub. We will be opening bounties for bug fixes, design and development in the comming months.',
   },
 };

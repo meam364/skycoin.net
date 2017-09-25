@@ -93,38 +93,12 @@ export default class Filter extends PureComponent {
   }
 
   render() {
-    const statusCurrent = this.state.status.current;
     const tagsCurrent = this.state.tags.current;
 
     return (
       <Wrap>
         <Container>
           <Filters>
-            <Text>Status: </Text>
-            <SelectItem>
-              <Select
-                onSelect={this.handleSelectStatus}
-                list={[
-                  {
-                    title: 'All',
-                    id: 'all',
-                  },
-                  {
-                    title: 'Completed',
-                    id: 'completed',
-                  },
-                  {
-                    title: 'In progress',
-                    id: 'in-progress',
-                  },
-                  {
-                    title: 'Slated',
-                    id: 'slated',
-                  },
-                ]}
-                current={statusCurrent}
-              />
-            </SelectItem>
             <Text>Tags: </Text>
             <SelectItem>
               <Select

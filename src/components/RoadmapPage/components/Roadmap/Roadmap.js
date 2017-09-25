@@ -10,6 +10,7 @@ import Quarter from '../Quarter/Quarter';
 const Wrapper = styled.div`
   min-height: 100vh;
   position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +34,6 @@ const Year = styled.div`
 const YearWrapper = styled.div`
   position: relative;
   width: 100%;
-  overflow: hidden;
 
   &:last-of-type {
     padding-bottom: 300px;
@@ -126,7 +126,7 @@ export default class Roadmap extends PureComponent {
       <Container>
         <Wrapper>
           {years.map((item, index) => (
-            <YearWrapper key={item[0].key}>
+            <YearWrapper key={index}>
               <Year>{item[0].year}</Year>
               <Quarter index={index} list={list[index]} />
             </YearWrapper>
