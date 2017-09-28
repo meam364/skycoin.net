@@ -27,7 +27,6 @@ export default class Quarter extends PureComponent {
                 body={roadmapItem.body}
                 title={roadmapItem.title}
                 startRight={item.startRight}
-                tags={roadmapItem.tags}
                 status={roadmapItem.status}
                 key={key}
               />

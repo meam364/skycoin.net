@@ -24,6 +24,9 @@ export default [{
   }, {
     label: 'footer.distribution',
     to: 'distribution',
+  }, {
+    label: 'footer.roadmap',
+    to: '/roadmap',
   }],
 }, {
   heading: 'footer.community',

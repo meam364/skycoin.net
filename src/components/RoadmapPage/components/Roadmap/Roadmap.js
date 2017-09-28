@@ -102,7 +102,9 @@ export default class Roadmap extends PureComponent {
   }
 
   render() {
-    const years = values(this.props.years).reverse();
+    const years = this.props.years.sort((a, b) => (
+      (!a[0].future && b[0].future) || (a[0].year < b[0].year) ? 1 : -1
+    ));
     const quarters = years.map(item => values(this.mergyByQuarter(item)).reverse());
     const list = quarters.reduce((acc, item, index) => {
       const newItem = item.reduce((newObject, current, i, array) => [
@@ -138,14 +140,6 @@ export default class Roadmap extends PureComponent {
 }
 
 Roadmap.propTypes = {
-  years: PropTypes.shape({
-    year: PropTypes.number,
-    tags: PropTypes.arrayOf(PropTypes.string),
-    body: PropTypes.string,
-    weight: PropTypes.number,
-    title: PropTypes.string,
-    status: PropTypes.string,
-    quarter: PropTypes.number,
-  }).isRequired,
+  years: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 

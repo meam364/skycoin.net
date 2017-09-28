@@ -26,6 +26,7 @@ export default {
     github: 'Github',
     telegram: 'Telegram',
     slack: 'Slack',
+    roadmap: 'Roadmap',
   },
   buyBanner: {
     lead: '选择以下交易所购买天空币',

@@ -8,6 +8,7 @@ export default {
       explorer: 'Обозреватель',
       blog: 'Blog',
       buy: 'Купить Skycoin',
+      roadmap: 'Roadmap',
     },
   },
   footer: {
@@ -26,6 +27,7 @@ export default {
     github: 'Github',
     telegram: 'Telegram',
     slack: 'Slack',
+    roadmap: 'Roadmap',
   },
   buyBanner: {
     lead: 'Existing Skycoins are available separately on the following exchanges',

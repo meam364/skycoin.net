@@ -119,17 +119,10 @@ const Wrapper = styled.div`
   }
 `;
 
-const Tag = styled.span`
-  font-family: ${FONT_FAMILIES.sans};
-  font-size: ${rem(FONT_SIZES[2])};
-  color: ${COLORS.gray[4]};
-`;
-
-const Item = ({ body, title, tags, status, startRight }) => (
+const Item = ({ body, title, status, startRight }) => (
   <Wrapper status={status} startRight={startRight}>
     {title && <Title>{title}</Title>}
     <Text>{body}</Text>
-    {tags.map(tag => <Tag key={tag}>#{tag} </Tag>)}
   </Wrapper>
 );
 
@@ -137,14 +130,13 @@ const Item = ({ body, title, tags, status, startRight }) => (
 Item.propTypes = {
   body: PropTypes.string.isRequired,
   title: PropTypes.string,
-  tags: PropTypes.arrayOf(PropTypes.string),
-  status: PropTypes.string.isRequired,
+  status: PropTypes.string,
   startRight: PropTypes.bool,
 };
 
 Item.defaultProps = {
   title: '',
-  tags: [],
+  status: 'in-progress',
   startRight: true,
 };
 
