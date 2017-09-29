@@ -58,7 +58,7 @@ export default {
     title: 'Skycoin - The third generation of cryptocurrency',
     description: 'Skycoin спроектирован как воплощение оригинальных идей Сатоши и для преодоления проблем Bitcoin.',
     hero: {
-      heading: 'Skycoin - The third generation of cryptocurrency',
+      heading: 'Skycoin is the third generation of crypto-currency',
       buy: 'Купить Skycoin',
       community: 'Community',
       whitepapers: 'Whitepapers',
