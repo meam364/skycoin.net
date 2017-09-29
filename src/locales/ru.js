@@ -28,6 +28,9 @@ export default {
     telegram: 'Telegram',
     slack: 'Slack',
     roadmap: 'Roadmap',
+    skyMessenger: 'Sky-Messenger',
+    cxPlayground: 'CX Playground',
+    team: 'Team',
   },
   buyBanner: {
     lead: 'Existing Skycoins are available separately on the following exchanges',

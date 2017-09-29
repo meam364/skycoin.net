@@ -27,6 +27,9 @@ export default {
     telegram: 'Telegram',
     slack: 'Slack',
     roadmap: 'Roadmap',
+    skyMessenger: 'Sky-Messenger',
+    cxPlayground: 'CX Playground',
+    team: 'Team',
   },
   buyBanner: {
     lead: '选择以下交易所购买天空币',

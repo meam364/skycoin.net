@@ -9,6 +9,9 @@ export default [{
   }, {
     label: 'footer.infographics',
     to: 'infographics',
+  }, {
+    label: 'footer.team',
+    href: 'https://blog.skycoin.net/statement/skycoin-team/',
   }],
 }, {
   heading: 'footer.explore',
@@ -27,6 +30,12 @@ export default [{
   }, {
     label: 'footer.roadmap',
     to: '/roadmap',
+  }, {
+    label: 'footer.skyMessenger',
+    href: 'http://messenger.skycoin.net/',
+  }, {
+    label: 'footer.cxPlayground',
+    href: 'http://cx.skycoin.net/',
   }],
 }, {
   heading: 'footer.community',
