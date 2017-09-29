@@ -54,10 +54,10 @@ export default {
     wallet: '下载钱包',
   },
   home: {
-    title: 'Skycoin is building the new internet.',
+    title: 'Skycoin - The third generation of cryptocurrency',
     description: '天空币的设计是用来实现中本聪对比特币的原初规划，并解决比特币的现存问题。',
     hero: {
-      heading: 'Skycoin is building the new internet.',
+      heading: 'Skycoin - The third generation of cryptocurrency',
       buy: '购买天空币',
       community: 'Community',
       whitepapers: 'Whitepapers',

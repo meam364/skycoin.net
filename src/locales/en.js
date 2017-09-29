@@ -55,10 +55,10 @@ export default {
     wallet: 'Get Wallet',
   },
   home: {
-    title: 'Skycoin is building the new internet.',
+    title: 'Skycoin - The third generation of cryptocurrency',
     description: 'Skycoin is designed to implement Satoshi\'s original vision and fix the problems with Bitcoin.',
     hero: {
-      heading: 'Skycoin is building the new internet.',
+      heading: 'Skycoin - The third generation of cryptocurrency',
       buy: 'Buy Skycoin',
       community: 'Community',
       whitepapers: 'Whitepapers',

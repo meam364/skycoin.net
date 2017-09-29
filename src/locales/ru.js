@@ -55,10 +55,10 @@ export default {
     wallet: 'Получить Кошелёк',
   },
   home: {
-    title: 'Skycoin is building the new internet.',
+    title: 'Skycoin - The third generation of cryptocurrency',
     description: 'Skycoin спроектирован как воплощение оригинальных идей Сатоши и для преодоления проблем Bitcoin.',
     hero: {
-      heading: 'Skycoin is building the new internet.',
+      heading: 'Skycoin - The third generation of cryptocurrency',
       buy: 'Купить Skycoin',
       community: 'Community',
       whitepapers: 'Whitepapers',
