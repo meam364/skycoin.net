@@ -30,6 +30,7 @@ export default {
     skyMessenger: 'Sky-Messenger',
     cxPlayground: 'CX Playground',
     team: 'Team',
+    subscribe: 'Mailing List',
   },
   buyBanner: {
     lead: '选择以下交易所购买天空币',
@@ -117,6 +118,7 @@ export default {
     miner: {
       label: 'Read more',
       heading: '天空链矿机：驱动下一代互联网的硬件',
+      subscribe: 'Sign up for the Skycoin mailing list for Skywire Miner updates',
     },
     roadmap: {
       heading: '路线图',

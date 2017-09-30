@@ -27,6 +27,11 @@ const Graphic = styled.img.attrs({
 
 const StyledLink = styled(Link)`
   text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const Miner = () => (
@@ -49,6 +54,11 @@ const Miner = () => (
           <StyledLink href="https://blog.skycoin.net/statement/skywire-miner-hardware-for-the-next-internet/">
             <Heading heavy as="h2" mt={[4, 5]} mb={0} fontSize={[5, 6]} color="white">
               <FormattedMessage id="home.miner.heading" />
+            </Heading>
+          </StyledLink>
+          <StyledLink to="mailing-list">
+            <Heading heavy as="div" mt={5} mb={0} fontSize={[3]} color="white">
+              <FormattedMessage id="home.miner.subscribe" />
             </Heading>
           </StyledLink>
         </Box>

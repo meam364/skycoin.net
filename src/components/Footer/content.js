@@ -12,6 +12,9 @@ export default [{
   }, {
     label: 'footer.team',
     href: 'https://blog.skycoin.net/statement/skycoin-team/',
+  }, {
+    label: 'footer.subscribe',
+    to: 'mailing-list',
   }],
 }, {
   heading: 'footer.explore',

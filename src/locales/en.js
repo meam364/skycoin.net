@@ -31,6 +31,7 @@ export default {
     skyMessenger: 'Sky-Messenger',
     cxPlayground: 'CX Playground',
     team: 'Team',
+    subscribe: 'Mailing List',
   },
   buyBanner: {
     lead: 'Existing Skycoins are available separately on the following exchanges',
@@ -118,6 +119,7 @@ export default {
     miner: {
       label: 'Read more',
       heading: 'Skywire Miner: hardware for the new internet',
+      subscribe: 'Sign up for the Skycoin mailing list for Skywire Miner updates',
     },
     roadmap: {
       heading: 'Roadmap',
