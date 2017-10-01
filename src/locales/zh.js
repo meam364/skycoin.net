@@ -88,6 +88,11 @@ export default {
     blog: {
       heading: 'Latest news from blog',
     },
+    aboutSkywire: {
+      heading: 'What is Skywire?',
+      lead: 'Skywire is the new internet',
+      button: 'Read more',
+    },
     about: {
       heading: '什么是天空币?',
       lead: '天空币的设计是用来实现中本聪对比特币的原初规划，并解决比特币的现存问题。',

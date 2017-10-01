@@ -1,34 +1,33 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Box } from 'grid-styled';
-import { FormattedMessage } from 'react-intl';
 import { rem } from 'polished';
 
 import { COLORS } from 'config';
 import Container from 'components/Container';
-import Heading from 'components/Heading';
-import Text from 'components/Text';
 
 import background from './background.png';
 
 // TODO: update background image to use global colors
-const About = styled.div`
+const Wrap = styled.div`
   background: url(${background}) repeat-x top center / ${rem(48)} #f7f7f7;
   border-bottom: 2px solid ${COLORS.gray[1]};
 `;
 
-export default () => (
-  <About>
+const About = ({ children }) => (
+  <Wrap>
     <Container>
       <Box py={[7, 8]}>
-        <Heading heavy as="h2" fontSize={[5, 6]} color="black" mb={[4, 6]}>
-          <FormattedMessage id="home.about.heading" />
-        </Heading>
-
-        <Text fontSize={[3, 3, 4]} color="black" heavy>
-          <FormattedMessage id="home.about.lead" />
-        </Text>
+        {children}
       </Box>
     </Container>
-  </About>
+  </Wrap>
 );
+
+export default About;
+
+About.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+

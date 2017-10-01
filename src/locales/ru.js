@@ -89,6 +89,11 @@ export default {
     blog: {
       heading: 'Latest news from blog',
     },
+    aboutSkywire: {
+      heading: 'What is Skywire?',
+      lead: 'Skywire is the new internet',
+      button: 'Read more',
+    },
     about: {
       heading: 'Что такое Skycoin?',
       lead: 'Skycoin спроектирован как воплощение оригинальных идей Сатоши и для преодоления проблем Bitcoin.',
