@@ -93,7 +93,7 @@ export default {
     },
     aboutSkywire: {
       heading: 'What is Skywire?',
-      lead: 'Skywire is the new internet',
+      lead: 'Skywire is the new internet.',
       button: 'Read more',
     },
     about: {
