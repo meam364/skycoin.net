@@ -11,6 +11,7 @@ import WhitepapersPage from '../WhitepapersPage';
 import NotFound from '../NotFound';
 import RoadmapPage from '../RoadmapPage';
 import MailingPage from '../MailingPage';
+import MarketsPage from '../MarketsPage';
 
 const Routes = ({ match }) => {
   const prefix = match.path === '/' ? '/' : '/:locale/';
@@ -25,6 +26,7 @@ const Routes = ({ match }) => {
       <Route path={`${prefix}architecture-overview`} exact component={ArchitectureOverview} />
       <Route path={`${prefix}roadmap`} exact component={RoadmapPage} />
       <Route path={`${prefix}mailing-list`} exact component={MailingPage} />
+      <Route path={`${prefix}markets`} exact component={MarketsPage} />
       <Redirect from={`${prefix}whitepapers.html`} to={`${prefix}whitepapers`} />
       <Redirect from={`${prefix}infographics.html`} to={`${prefix}infographics`} />
       <Redirect from={`${prefix}downloads.html`} to={`${prefix}downloads`} />

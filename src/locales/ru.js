@@ -55,6 +55,9 @@ export default {
     buy: 'Купить Skycoin',
     wallet: 'Получить Кошелёк',
   },
+  markets: {
+    data: 'Market Data',
+  },
   home: {
     title: 'Skycoin - The third generation of cryptocurrency',
     description: 'Skycoin спроектирован как воплощение оригинальных идей Сатоши и для преодоления проблем Bitcoin.',

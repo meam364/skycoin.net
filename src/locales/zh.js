@@ -54,6 +54,9 @@ export default {
     buy: '购买天空币',
     wallet: '下载钱包',
   },
+  markets: {
+    data: 'Market Data',
+  },
   home: {
     title: 'Skycoin - The third generation of cryptocurrency',
     description: '天空币的设计是用来实现中本聪对比特币的原初规划，并解决比特币的现存问题。',
