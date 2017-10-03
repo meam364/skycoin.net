@@ -32,7 +32,7 @@ const Title = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 50px;
+  height: 40px;
 `;
 
 const Item = styled(Link)`
@@ -50,7 +50,7 @@ const Item = styled(Link)`
 const MarketsList = () => (
   <Wrap>
     <Title>
-      <Heading mb={0} heavy as="h2" fontSize={[5, 6]} color="black">
+      <Heading heavy as="h2" fontSize={[5, 6]} color="black">
         <FormattedMessage id="markets.data" />
       </Heading>
     </Title>
