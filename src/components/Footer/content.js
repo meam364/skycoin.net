@@ -15,6 +15,12 @@ export default [{
   }, {
     label: 'footer.subscribe',
     to: 'mailing-list',
+  }, {
+    label: 'footer.market',
+    to: 'markets',
+  }, {
+    label: 'footer.bitcoinTalks',
+    href: 'https://bitcointalk.org/index.php?topic=380441',
   }],
 }, {
   heading: 'footer.explore',
@@ -57,5 +63,14 @@ export default [{
   }, {
     label: 'footer.slack',
     href: 'http://skycoin.herokuapp.com/',
+  }, {
+    label: 'footer.discord',
+    href: 'https://discord.gg/EgBenrW',
+  }, {
+    label: 'footer.facebook',
+    href: 'https://www.facebook.com/skycoinproject',
+  }, {
+    label: 'footer.instagram',
+    href: 'https://www.instagram.com/skycoinproject/',
   }],
 }];

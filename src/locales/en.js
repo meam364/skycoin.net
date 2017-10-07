@@ -32,6 +32,11 @@ export default {
     cxPlayground: 'CX Playground',
     team: 'Team',
     subscribe: 'Mailing List',
+    market: 'Markets',
+    bitcoinTalks: 'Bitcointalks ANN',
+    instagram: 'Instagram',
+    facebook: 'Facebook',
+    discord: 'Discord',
   },
   buyBanner: {
     lead: 'Existing Skycoins are available separately on the following exchanges',

@@ -32,6 +32,11 @@ export default {
     cxPlayground: 'CX Playground',
     team: 'Команда',
     subscribe: 'Рассылка',
+    market: 'Markets',
+    bitcoinTalks: 'Bitcointalks ANN',
+    instagram: 'Instagram',
+    facebook: 'Facebook',
+    discord: 'Discord',
   },
   buyBanner: {
     lead: 'Имеющиеся в наличии Skycoins можно приобрести на следующих биржах',

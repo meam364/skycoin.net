@@ -31,6 +31,11 @@ export default {
     cxPlayground: 'CX Playground',
     team: 'Team',
     subscribe: 'Mailing List',
+    market: 'Markets',
+    bitcoinTalks: 'Bitcointalks ANN',
+    instagram: 'Instagram',
+    facebook: 'Facebook',
+    discord: 'Discord',
   },
   buyBanner: {
     lead: '选择以下交易所购买天空币',
