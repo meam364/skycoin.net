@@ -19,7 +19,7 @@ export default [{
     label: 'footer.market',
     to: 'markets',
   }, {
-    label: 'footer.bitcoinTalks',
+    label: 'footer.bitcoinTalk',
     href: 'https://bitcointalk.org/index.php?topic=380441',
   }],
 }, {

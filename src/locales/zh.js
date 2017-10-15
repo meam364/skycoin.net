@@ -33,7 +33,7 @@ export default {
     team: 'Team',
     subscribe: 'Mailing List',
     market: 'Markets',
-    bitcoinTalks: 'Bitcointalks ANN',
+    bitcoinTalk: 'Bitcointalk ANN',
     instagram: 'Instagram',
     facebook: 'Facebook',
     discord: 'Discord',
