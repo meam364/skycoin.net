@@ -12,6 +12,7 @@ export default {
     },
   },
   footer: {
+    bounty: 'Bounty Channel',
     getStarted: 'Начать',
     explore: 'Дополнительно',
     community: 'Сообщество',

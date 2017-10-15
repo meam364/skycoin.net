@@ -11,6 +11,7 @@ export default {
     },
   },
   footer: {
+    bounty: 'Bounty Channel',
     getStarted: '开始',
     explore: '浏览',
     community: '社区',

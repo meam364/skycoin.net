@@ -49,6 +49,10 @@ export default [{
 }, {
   heading: 'footer.community',
   links: [{
+    label: 'footer.bounty',
+    href: 'https://t.me/skycoinbounty',
+  },
+  {
     label: 'footer.reddit',
     href: 'https://www.reddit.com/r/SkycoinProject',
   }, {
