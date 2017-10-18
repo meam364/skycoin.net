@@ -16,7 +16,7 @@ const Introduction = () => (
 
       <Box width={[1 / 2, 1, 1 / 2]} pr={[1, 0, 4]} mb={[0, 4, 0]}>
         <Buy
-          color="violet.5"
+          color="blue.5"
           bg="white"
           big
           fontSize={[1, 3]}
@@ -55,7 +55,7 @@ const Introduction = () => (
       <Box width={[1 / 2, 1, 1 / 2]} pl={[1, 0, 4]}>
         <Button
           to="whitepapers"
-          color="violet.5"
+          color="blue.5"
           bg="white"
           big
           width={[1, 1 / 2, 1]}

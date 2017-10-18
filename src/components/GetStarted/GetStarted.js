@@ -37,7 +37,7 @@ export default () => (
 
         <Box width={[1 / 1, 1 / 1, 1 / 2]}>
           <Buttons>
-            <Buy color="white" bg="violet.5" big fontSize={[1, 3]}>
+            <Buy color="white" bg="blue.5" big fontSize={[1, 3]}>
               <FormattedMessage id="getStarted.buy" />
             </Buy>
 
@@ -45,7 +45,7 @@ export default () => (
               outlined
               big
               to="downloads"
-              color="violet.5"
+              color="blue.5"
               ml={[2, 5]}
               fontSize={[1, 3]}
             >

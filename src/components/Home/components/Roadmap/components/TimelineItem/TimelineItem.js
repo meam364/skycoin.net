@@ -8,7 +8,7 @@ import { FormattedMessage } from 'react-intl';
 import Text from 'components/Text';
 import Heading from 'components/Heading';
 import media from 'utils/media';
-import { SPACE, COLORS, BORDER_RADIUS } from 'config';
+import { SPACE, BORDER_RADIUS } from 'config';
 
 const Wrapper = styled.div`
   overflow: hidden;
@@ -27,7 +27,7 @@ const Marker = styled.span`
   line-height: ${rem(40)};
   text-align: center;
   border-radius: ${BORDER_RADIUS.pill};
-  border: 2px solid ${COLORS.gray[1]};
+  border: 2px solid #292D32;
   background-color: white;
 
   ${media.md.css`
@@ -40,7 +40,7 @@ const Marker = styled.span`
 const Line = styled.div`
   width: 100%;
   height: 2px;
-  background-color: ${COLORS.gray[1]};
+  background-color: #292D32;
   margin-top: ${rem(20)};
 
   ${media.md.css`
@@ -56,15 +56,15 @@ const TimelineItem = ({ quarter, year, content }) => (
       </Box>
 
       <Box width={[5 / 6, 5 / 6, 4 / 6]}>
-        <Heading as="span" fontSize={[3, 4]} color="gray.7">
+        <Heading as="span" fontSize={[3, 4]} color="#292D32">
           <Marker><FormattedMessage id={quarter} /></Marker>
         </Heading>
 
-        <Heading as="span" fontSize={[1, 2]} color="gray.7">
+        <Heading as="span" fontSize={[1, 2]} color="#292D32">
           <FormattedMessage id={year} />
         </Heading>
 
-        <Text fontSize={[2, 2, 3]} color="gray.8" mt={[4, 4, 6]} mb={0}>
+        <Text fontSize={[2, 2, 3]} color="#22262B" mt={[4, 4, 6]} mb={0}>
           <FormattedMessage id={content} />
         </Text>
       </Box>

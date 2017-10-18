@@ -4,7 +4,7 @@ import { rem } from 'polished';
 import media from 'utils/media';
 import { FormattedMessage } from 'react-intl';
 
-import { COLORS, FONT_SIZES, FONT_FAMILIES, SPACE } from 'config';
+import { FONT_SIZES, FONT_FAMILIES, SPACE } from 'config';
 
 import Link from 'components/Link';
 
@@ -22,7 +22,7 @@ const StyledLink = styled(Link)`
   margin-bottom: ${rem(SPACE[2])};
   font-family: ${FONT_FAMILIES.mono};
   font-size: ${rem(FONT_SIZES[5])};
-  color: ${props => (props.disabled ? COLORS.gray[4] : '#fff')};
+  color: ${props => (props.disabled ? '#EFF0F0' : '#fff')};
   text-decoration: none;
 
   &:hover {

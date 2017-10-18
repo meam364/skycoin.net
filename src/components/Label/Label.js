@@ -4,7 +4,7 @@ import { rem } from 'polished';
 import { COLORS, FONT_SIZES, FONT_FAMILIES, BOX_SHADOWS, SPACE, BORDER_RADIUS } from 'config';
 
 export default styled.span`
-  background-color: ${COLORS.indigo[4]};
+  background-color: ${COLORS.blue[5]};
   border-radius: ${BORDER_RADIUS.base};
   box-shadow: ${BOX_SHADOWS.base};
   font-family: ${FONT_FAMILIES.mono};

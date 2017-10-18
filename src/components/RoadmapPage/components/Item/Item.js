@@ -13,13 +13,13 @@ const Title = styled.h4`
   font-size: ${rem(FONT_SIZES[2])};
   font-weight: 700;
   margin-bottom: ${rem(SPACE[1])};
-  color: ${COLORS.gray[9]};
+  color: #16191D;
 `;
 
 const Text = styled.p`
   font-family: ${FONT_FAMILIES.sans};
   font-size: ${rem(FONT_SIZES[2])};
-  color: ${COLORS.gray[9]};
+  color: #16191D;
   margin-bottom: 0;
 `;
 
@@ -85,7 +85,7 @@ const Wrapper = styled.div`
       top: 50%;
       left: 8px;
       transform: translateY(-50%);
-      background: ${COLORS.indigo[4]};
+      background: ${COLORS.base};
     `}
   }
 

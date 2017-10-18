@@ -9,7 +9,7 @@ import Heading from 'components/Heading';
 import Container from 'components/Container';
 
 const Wrapper = styled.div`
-  background-image: linear-gradient(-110deg, ${COLORS.base}, ${COLORS.violet[4]});
+  background-image: linear-gradient(-110deg, ${COLORS.base}, ${COLORS.blue[5]});
   padding-bottom: ${rem(SPACE[5])};
 `;
 

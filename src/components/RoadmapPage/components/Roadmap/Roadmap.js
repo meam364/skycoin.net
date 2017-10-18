@@ -20,7 +20,7 @@ const Year = styled.div`
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background-image: linear-gradient(0deg, #B480F2 0%, #608CE5 100%);
+  background-image: linear-gradient(0deg, ${COLORS.base} 0%, ${COLORS.blue[5]} 100%);
   margin: 0 auto;
   font-family: ${FONT_FAMILIES.mono};
   font-size: ${rem(FONT_SIZES[2])};
@@ -51,7 +51,7 @@ const YearWrapper = styled.div`
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: ${COLORS.gray[2]};
+    background: #EFF0F0;
     z-index: -1;
   }
 `;

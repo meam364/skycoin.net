@@ -12,7 +12,7 @@ const EXCHANGES = [{
 }, {
   name: 'buy.cryptopia',
   url: 'https://www.cryptopia.co.nz/Exchange/?market=SKY_BTC',
-  color: 'gray.7',
+  color: '#292D32'
 }];
 
 export default () => (

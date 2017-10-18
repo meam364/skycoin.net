@@ -13,7 +13,7 @@ import Introduction from './components/Introduction';
 import Announcement from './components/Announcement';
 
 const Wrapper = styled.div`
-  background-image: linear-gradient(-110deg, ${COLORS.base}, ${COLORS.violet[4]});
+  background-image: linear-gradient(-110deg, ${COLORS.base}, ${COLORS.blue[5]});
   position: relative;
   min-height: 33rem;
   height: auto;

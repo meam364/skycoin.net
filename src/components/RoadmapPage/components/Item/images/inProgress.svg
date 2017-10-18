@@ -7,7 +7,7 @@
     <mask id="b" fill="#fff">
       <use xlink:href="#a"/>
     </mask>
-    <use fill="#8481EB" fill-rule="nonzero" xlink:href="#a"/>
-    <path fill="#8481EB" d="M0 0h65v16H0z" mask="url(#b)"/>
+    <use fill="#0072FF" fill-rule="nonzero" xlink:href="#a"/>
+    <path fill="#0072FF" d="M0 0h65v16H0z" mask="url(#b)"/>
   </g>
 </svg>
