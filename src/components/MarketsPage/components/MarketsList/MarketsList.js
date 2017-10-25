@@ -47,8 +47,24 @@ const Item = styled(Link)`
   }
 `;
 
+const Contact = styled.div`
+  font-family: ${FONT_FAMILIES.sans};
+  font-size: ${rem(FONT_SIZES[3])};
+  color: #16191D;
+`;
+
+const ContactLink = styled.a`
+  color: #16191D;
+  text-decoration: none;
+`;
+
 const MarketsList = () => (
   <Wrap>
+    <Contact>
+      <FormattedMessage
+        id="markets.contact"
+      /> <ContactLink href="mailto:contact@skycoin.net">contact@skycoin.net</ContactLink>
+    </Contact>
     <Title>
       <Heading heavy as="h2" fontSize={[5, 6]} color="black">
         <FormattedMessage id="markets.data" />

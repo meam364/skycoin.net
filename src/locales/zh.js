@@ -62,6 +62,7 @@ export default {
   },
   markets: {
     data: 'Market Data',
+    contact: 'To list Skycoin and put your exchange here email ',
   },
   home: {
     title: 'Skycoin - The third generation of cryptocurrency',
