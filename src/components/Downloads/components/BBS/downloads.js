@@ -1,4 +1,4 @@
-export const version = 'v4.1.0';
+export const version = 'v4.2.0';
 export const downloads = [{
   platform: 'downloads.wallet.macos',
   icon: 'macos',
@@ -6,9 +6,9 @@ export const downloads = [{
     name: 'downloads.wallet.withElectron',
     architectures: [{
       name: '',
-      download: 'https://downloads.skycoin.net/bbs/skycoin_bbs_4.1_osx_amd64.zip',
+      download: 'https://github.com/skycoin/bbs/releases/download/v4.2/skycoin_bbs_4.2_osx_amd64.zip',
       filetype: '.zip',
-      filesize: '5.5mb',
+      filesize: '5.6mb',
     }],
   }],
 }, {
@@ -18,9 +18,9 @@ export const downloads = [{
     name: 'downloads.wallet.withElectron',
     architectures: [{
       name: '64bit',
-      download: 'https://downloads.skycoin.net/bbs/skycoin_bbs_4.1_windows_amd64.zip',
+      download: 'https://github.com/skycoin/bbs/releases/download/v4.2/skycoin_bbs_4.2_windows_amd64.zip',
       filetype: '.zip',
-      filesize: '5.5mb',
+      filesize: '5.6mb',
     }],
   }],
 }, {
@@ -30,9 +30,9 @@ export const downloads = [{
     name: 'downloads.wallet.withElectron',
     architectures: [{
       name: '64bit',
-      download: 'https://downloads.skycoin.net/bbs/skycoin_bbs_4.1_linux_amd64.zip',
+      download: 'https://github.com/skycoin/bbs/releases/download/v4.2/skycoin_bbs_4.2_linux_amd64.zip',
       filetype: '.zip',
-      filesize: '5.5mb',
+      filesize: '5.7mb',
     }],
   }],
 }];

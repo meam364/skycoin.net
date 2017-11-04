@@ -88,9 +88,6 @@ const MarketsList = () => (
       <Row>
         <Item href="https://www.c2cx.com/in/trade_btc_sky" target="_blank">SKY/BTC</Item>
       </Row>
-      <Row>
-        <Item href="https://www.c2cx.com/in/trade_eth_sky" target="_blank">SKY/ETC</Item>
-      </Row>
     </List>
     <Title>
       <Heading mb={0} heavy as="h2" fontSize={[5, 6]} color="black">
