@@ -21,11 +21,11 @@ export const TableWrapper = styled(Text).attrs({
 
 export default styled.table`
   width: 100%;
-  border-bottom: 1px solid ${COLORS.gray[1]};
+  border-bottom: 1px solid #787A7D;
   min-width: ${rem(800)};
 
   td, th {
-    border-top: 1px solid ${COLORS.gray[1]};
+    border-top: 1px solid #787A7D;
     height: ${rem(40)};
 
     ${media.sm.css`

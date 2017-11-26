@@ -166,27 +166,27 @@ export default {
     title: '다운로드',
     description: '스카이코인 지갑 다운로드',
     wallet: {
-      heading: '지갑',
+      heading: 'Download Skycoin Wallet',
       lead: '단순 사용을 위해서는, 데스크탑 지갑을 다운로드하세요. 고급 사용, 또는 느린 속도의 경우, CLI 지갑이 귀하의 브라우저에서 직접 실행되며 UI를 제공합니다. ',
       build: '최신 버전 {version}.',
       macos: 'MacOS',
       linux: '리눅스',
       windows: '윈도우',
-      withElectron: '데스크탑',
-      withoutElectron: 'CLI',
+      withElectron: 'Standalone',
+      withoutElectron: 'Installer',
       download: '다운로드',
       torrent: '토렌트',
     },
     bbs: {
-      heading: 'BBS',
+      heading: 'Download Skycoin BBS',
       lead: '스카이코인 BBS는 스카이코인 생태계와 함께 차세대 분산 소셜 네트워크를 구축하였습니다.',
     },
     whitepapers: {
-      heading: '백서',
+      heading: 'Download Skycoin Whitepapers',
       download: '다운로드',
     },
     assets: {
-      heading: '브랜드 자산',
+      heading: 'Download Skycoin Branding Guide',
     },
     roadmap: {
       heading: '로드맵',

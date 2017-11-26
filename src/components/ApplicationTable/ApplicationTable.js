@@ -19,6 +19,15 @@ const Th = styled.th`
   padding: ${props => (props.count > 1 ? 'inherit' : `${rem(SPACE[4])} 0`)};
 `;
 
+const Row = styled.tr`
+  text-align: center;
+
+  td {
+    border-top: 1px solid ${props => (props.light ? '#D2D3D4' : 'inherit')};
+  }
+`;
+
+
 const ApplicationTable = ({ list }) => (
   <TableWrapper>
     <Table>
@@ -26,7 +35,10 @@ const ApplicationTable = ({ list }) => (
         {list.map(({ platform, icon, builds }, platformIndex) =>
           builds.map((build, buildIndex) =>
             build.architectures.map((architecture, architectureIndex) => (
-              <tr key={`${platformIndex}-${buildIndex}-${architectureIndex}`}>
+              <Row
+                light={buildIndex !== 0 && buildIndex !== builds.length}
+                key={`${platformIndex}-${buildIndex}-${architectureIndex}`}
+              >
                 {buildIndex === 0 &&
                   <Th
                     count={builds.length}
@@ -48,9 +60,12 @@ const ApplicationTable = ({ list }) => (
                 <td>
                   <a href={architecture.download}>
                     <FormattedMessage id="downloads.wallet.download" />
-                    &nbsp;
-                    ({architecture.filetype})
                   </a>
+                </td>
+                <td>
+                  <Text as="span" color="gray.7" heavy>
+                    {architecture.filetype}
+                  </Text>
                 </td>
 
                 {architecture.torrent && <td>
@@ -64,13 +79,7 @@ const ApplicationTable = ({ list }) => (
                     {architecture.version}
                   </Text>
                 </td>
-
-                <td>
-                  <Text as="span" color="gray.7" heavy>
-                    {architecture.filesize}
-                  </Text>
-                </td>
-              </tr>
+              </Row>
             )),
           ),
         )}

@@ -161,27 +161,27 @@ export default {
     title: '下载',
     description: '下载天空币钱包和白皮书.',
     wallet: {
-      heading: '钱包',
+      heading: 'Download Skycoin Wallet',
       lead: '为使用简便，请下载安装桌面钱包。针对高级用户或慢速连接, 命令行钱包提供了一个可以直接在浏览器运行的UI界面',
       build: '当前发布版本是 {version}.',
       macos: 'MacOS',
       linux: 'Linux',
       windows: 'Windows',
-      withElectron: '桌面版钱包',
-      withoutElectron: '命令行钱包',
+      withElectron: 'Standalone',
+      withoutElectron: 'Installer',
       download: '下载',
       torrent: '种子',
     },
     bbs: {
-      heading: 'BBS',
+      heading: 'Download Skycoin BBS',
       lead: 'Skycoin BBS is a next generation decentralized social network built with the Skycoin Ecosystem.',
     },
     whitepapers: {
-      heading: '白皮书',
+      heading: 'Download Skycoin Whitepapers',
       download: '下载',
     },
     assets: {
-      heading: 'Branding assets',
+      heading: 'Download Skycoin Branding Guide',
     },
     roadmap: {
       heading: 'Roadmap',

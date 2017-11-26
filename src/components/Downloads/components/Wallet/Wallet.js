@@ -17,10 +17,6 @@ const Wallet = () => (
           <FormattedMessage id="downloads.wallet.heading" />
         </Heading>
 
-        <Text fontSize={[3, 3, 4]} color="black" heavy mb={[5, 7]}>
-          <FormattedMessage id="downloads.wallet.lead" />
-        </Text>
-
         <Text fontSize={[3, 3, 4]} color="gray.9" heavy>
           <FormattedMessage id="downloads.wallet.build" values={{ version }} />
         </Text>

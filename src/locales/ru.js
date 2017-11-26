@@ -166,27 +166,27 @@ export default {
     title: 'Загрузки',
     description: 'Скачать Skycoin Кошелёк и описания.',
     wallet: {
-      heading: 'Кошелёк',
+      heading: 'Скачать кошелёк Skycoin',
       lead: 'Для простейшего использования скачайте десктоп версию кошелька. Для продвинутого использования или медленных соединений скачайте кошелёк для командной строки (CLI) предоставляет интерфейс, доступный прямо в вашем браузере.',
       build: 'Текущая сборка: {version}.',
       macos: 'MacOS',
       linux: 'Linux',
       windows: 'Windows',
-      withElectron: 'Desktop',
-      withoutElectron: 'CLI',
+      withElectron: 'Standalone',
+      withoutElectron: 'Installer',
       download: 'Скачать',
       torrent: 'Torrent',
     },
     bbs: {
-      heading: 'BBS',
+      heading: 'Скачать Skycoin BBS',
       lead: 'Skycoin BBS - это децентрализованная социальная сеть следующего поколения, построенная с использованием экосистемы Skycoin.',
     },
     whitepapers: {
-      heading: 'Документация',
+      heading: 'Скачать документацию Skycoin',
       download: 'Скачать',
     },
     assets: {
-      heading: 'Активы бренда',
+      heading: 'Скачать активы бренда Skycoin',
     },
     roadmap: {
       heading: 'План',

@@ -166,27 +166,27 @@ export default {
     title: 'Downloads',
     description: 'Download Skycoin wallet.',
     wallet: {
-      heading: 'Wallet',
+      heading: 'Download Skycoin Wallet',
       lead: 'For simple use, download the Desktop wallet. For advanced use, or slow connections, the CLI wallet provides a UI that runs directly in your browser.',
       build: 'The current build is {version}.',
       macos: 'MacOS',
       linux: 'Linux',
       windows: 'Windows',
-      withElectron: 'Desktop',
-      withoutElectron: 'CLI',
+      withElectron: 'Standalone',
+      withoutElectron: 'Installer',
       download: 'Download',
       torrent: 'Torrent',
     },
     bbs: {
-      heading: 'BBS',
+      heading: 'Download Skycoin BBS',
       lead: 'Skycoin BBS is a next generation decentralized social network built with the Skycoin Ecosystem.',
     },
     whitepapers: {
-      heading: 'Whitepapers',
+      heading: 'Download Skycoin Whitepapers',
       download: 'Download',
     },
     assets: {
-      heading: 'Branding assets',
+      heading: 'Download Skycoin Branding Guide',
     },
     roadmap: {
       heading: 'Roadmap',
