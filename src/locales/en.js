@@ -1,6 +1,7 @@
 export default {
   header: {
     navigation: {
+      home: 'Technology',
       distribution: 'Distribution',
       distributionEvent: 'Distribution event',
       whitepapers: 'Whitepapers',
@@ -67,9 +68,17 @@ export default {
   },
   home: {
     title: 'Skycoin - The third generation of cryptocurrency',
+    architectureLink: 'View our full <span>Architecture Overview</span>',
     description: 'Skycoin is designed to implement Satoshi\'s original vision and fix the problems with Bitcoin.',
+    logos: {
+      title: 'Partnerships & media',
+    },
+    exchanges: {
+      title: 'Exchanges',
+    },
     hero: {
-      heading: 'Skycoin is the third generation of crypto-currency',
+      heading: 'The next generation cryptocurrency.',
+      lead: 'We built a full-fledged technology ecosystem that works harmoniously together to create the first and only truly decentralized and democratic cryptocurrency.',
       buy: 'Buy Skycoin',
       community: 'Community',
       whitepapers: 'Whitepapers',

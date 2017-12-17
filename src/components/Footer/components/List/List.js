@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import { FormattedMessage } from 'react-intl';
+import { COLORS_NEW } from 'config';
 
 import Buy from 'components/Buy';
 import Heading from 'components/Heading';
@@ -32,11 +33,11 @@ const StyledBuy = styled(Buy)`
 
 const List = ({ heading, links }) => (
   <div>
-    <Heading color="black" fontSize={3} heavy>
+    <Heading color={COLORS_NEW.darkGray} fontSize={3} heavy>
       <FormattedMessage id={heading} />
     </Heading>
 
-    <Text as="div" fontSize={[1, 2, 3]} color="gray.8">
+    <Text as="div" fontSize={[1, 2, 3]} color={COLORS_NEW.white}>
       <LinkList>
         {links.map(({ label, href, to, buy }, linkIndex) => (
           <li key={linkIndex}>

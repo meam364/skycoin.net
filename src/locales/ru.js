@@ -1,6 +1,7 @@
 export default {
   header: {
     navigation: {
+      home: 'Технологии',
       distribution: 'Распространение',
       distributionEvent: 'Распространение',
       whitepapers: 'Документация',

@@ -1,6 +1,7 @@
 export default {
   header: {
     navigation: {
+      home: 'Technology',
       distribution: '币分发',
       distributionEvent: 'Distribution event',
       whitepapers: '白皮书',

@@ -1,6 +1,7 @@
 export default {
   header: {
     navigation: {
+      home: 'Technology',
       distribution: '배포',
       distributionEvent: '배포 이벤트',
       whitepapers: '백서',
