@@ -18,7 +18,7 @@ const Introduction = () => (
         <FormattedMessage id="home.hero.heading" />
       </Heading>
     </Box>
-    <Box width={[1, 1, 2 / 3 ]}>
+    <Box width={[1, 1, 2 / 3]}>
       <Heading fontSize={24}>
         <FormattedMessage id="home.hero.lead" />
       </Heading>
