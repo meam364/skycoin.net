@@ -6,10 +6,11 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 import { COLORS_NEW } from 'config';
 
-import { Flex, Box } from 'grid-styled';
 import Link from 'components/Link';
 import TechnologyLink from 'components/TechnologyLink';
 import Container from 'components/Container';
+import Grid from 'components/Grid';
+import GridColumn from 'components/GridColumn';
 import Footer from 'components/Footer';
 import Hero from './components/Hero';
 import Logos from './components/Logos';
@@ -52,14 +53,14 @@ const Home = ({ intl }) => (
     <Hero />
     <Container>
       <Links>
-        <Flex>
-          <Box width={[1, 1, 1 / 2]} mr={[0, 0, 8]}>
+        <Grid>
+          <GridColumn width={6}>
             <TechnologyLink href="skywire" bg={skywireImage} title="Skywire" />
-          </Box>
-          <Box width={[1, 1, 1 / 2]}>
-            <TechnologyLink to="skycoin" bg={skycoinImage} title="Skycoin" />
-          </Box>
-        </Flex>
+          </GridColumn>
+          <GridColumn width={6}>
+            <TechnologyLink href="skycoin" bg={skycoinImage} title="Skycoin" />
+          </GridColumn>
+        </Grid>
         <StyledLink to="architecture-overview">
           <FormattedHTMLMessage id="home.architectureLink" />
           <img src={arrowRight} alt="arrow" />

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import createComponentFromTagProp from 'react-create-component-from-tag-prop';
 import { COLORS_NEW, FONT_FAMILIES } from 'config';
 import { rem } from 'polished';
+import media from 'utils/media';
 
 const Text = createComponentFromTagProp({
   tag: 'h2',
@@ -10,19 +11,22 @@ const Text = createComponentFromTagProp({
 });
 
 const Heading = styled(Text)`
-  font-size: ${props => rem(props.fontSize)};
   font-family: ${FONT_FAMILIES.sans};
   color: ${props => (props.fontSize > 32 ? COLORS_NEW.primary : COLORS_NEW.black)};
-  margin-bottom: ${(props) => {
-    switch (true) {
-      case props.fontSize >= 48:
-        return rem(40);
-      case props.fontSize >= 24:
-        return rem(20);
-      default:
-        return 0;
-    }
-  }};
+
+  ${media.sm.css`
+    font-size: ${props => rem(props.fontSize)};
+    margin-bottom: ${(props) => {
+      switch (true) {
+        case props.fontSize >= 48:
+          return rem(40);
+        case props.fontSize >= 24:
+          return rem(20);
+        default:
+          return 0;
+      }
+    }};
+  `};
 
   ${props => props.gradient && `
     @supports (-webkit-background-clip: text) {

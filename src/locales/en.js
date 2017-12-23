@@ -225,4 +225,43 @@ export default {
   roadmapPage: {
     heading: 'Development roadmap',
   },
+  skycoinPage: {
+    about: {
+      title: 'Skycoin is the only cryptocurrency backed by a commodity in high demand: bandwidth.',
+      listTitle: 'Skycoin <span>fixes all of the major flaws</span> and centralization tendencies associated with other cryptocurrencies.',
+      listDescription: 'Skycoin transactions occur in seconds and are more secure. With Skycoin, we’ve created an immutable cryptocurrency that functions as digital property, rather than a political tool for amassing control over networks.',
+      obeliskTitle: 'Obelisk Consensus Algorithm',
+      obeliskText: 'Seven years of research went into our consensus algorithm, Obelisk, which uses a web-of-trust mechanism to to allow for collective decision making, resulting in true decentralization of power',
+      skywireTitle: 'Designed for Skywire',
+      skywireText: 'Our incentivized mesh network, Skywire, is the backbone of Skycoin. By becoming a node on our mesh net, you will earn passive income.',
+    },
+    benefits: {
+      title: 'Benefits of our <span>third generation</span> cryptocurrency.',
+      1: {
+        title: 'Fast',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+      },
+      2: {
+        title: 'Free transactions',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+      },
+      3: {
+        title: 'Privacy',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+      },
+      4: {
+        title: 'Security',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+        list: {
+          1: 'Encrypted by default',
+          2: 'Feature here',
+          3: 'Feature here',
+        },
+      },
+      5: {
+        title: 'Eco-friendly',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+      },
+    },
+  },
 };

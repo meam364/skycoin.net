@@ -7,7 +7,7 @@ export const COLORS = palx('#0072FF');
 export const SPACE = [0, 4, 8, 12, 16, 20, 24, 32, 40, 48, 56, 64, 72];
 export const FONT_SIZES = [11, 13, 14, 15, 17, 20, 24, 28, 36, 40];
 export const COLORS_NEW = {
-  black: '#1E2227',
+  black: '#2A2D32',
   trueWhite: '#fff',
   primary: '#1D5FFF',
   lightPrimary: '#00C4FF',
@@ -23,7 +23,7 @@ export const COLORS_NEW = {
 export const BREAKPOINTS = {
   sm: 40,
   md: 52,
-  lg: 64,
+  lg: 67,
 };
 
 export const FONT_FAMILIES = {
