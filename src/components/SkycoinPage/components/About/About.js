@@ -107,7 +107,7 @@ const About = () => (
             fontSize={40}
             gradient
           >
-              <FormattedMessage id="skycoinPage.about.title" />
+            <FormattedMessage id="skycoinPage.about.title" />
           </StyledHeading>
         </GridColumn>
       </Grid>
