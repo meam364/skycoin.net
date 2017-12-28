@@ -264,4 +264,76 @@ export default {
       },
     },
   },
+  skywirePage: {
+    form: {
+      title: 'Stay informed on further Skywire releases',
+      checkbox: 'I’m interested in the Skywire Miner',
+      button: 'Sign up',
+    },
+    sell: {
+      checkbox: 'I’m interested in the Skywire Miner',
+      soldout: 'Sold out!',
+      title: 'Start <span>earning money</span> today.',
+      description: 'Buy our Skywire Miner or install our software and become a major provider in our emerging network.',
+      listTitle: 'Skywire Miner',
+      listDescription: 'The backbone of this new network is the Skywire miner, which is custom built for power and performance. The Skywire Miner is used to forward traffic and provide various network resources, in return for skycoin.',
+      listName: 'Specifications',
+      list: {
+        1: '8 CPU boards',
+        2: '2 GB of RAM per board',
+        3: '4 CPU cores per board',
+        4: '64 GB of storage per board',
+        5: '64-bit Linux (Alpine Linux)',
+        6: 'Gigabit ethernet, 8+1 port switch',
+      },
+    },
+    about: {
+      title: 'Earn money providing open and free internet access to the people to whom it belongs.',
+      button: 'Profit Calculator',
+      listTitle: 'The Skywire economy is <span>powered by Skycoin</span>, where you earn money for operating the network.',
+      listDescription: 'Imagine an internet that gives you total privacy and control of your data, one that lets you do everything you do today and more — except instead of paying for this incredible resource, you earn income supporting it.',
+      list: {
+        1: {
+          name: 'Install Skywire software',
+          text: 'You don’t need any special hardware to install our software and act as a node on our incentivised mesh network, Skywire.',
+        },
+        2: {
+          name: 'Serve content',
+          text: 'Skywire lets you act as your own ISP, providing free, private, and secure access to the open and free internet to everyone in your vicinity.',
+        },
+        3: {
+          name: 'Earn a passive income',
+          text: 'You will maximize your profit in two ways: by having high bandwidth in high-traffic areas, or by serving highly sought-after content.',
+        },
+      },
+    },
+    benefits: {
+      title: 'Benefits of the <span>new internet</span>.',
+      1: {
+        title: 'Security',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+        list: {
+          1: 'Encrypted by default',
+          2: 'Feature here',
+          3: 'Feature here',
+        },
+      },
+      2: {
+        title: 'Privacy',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+      },
+      3: {
+        title: 'Fast',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+      },
+      4: {
+        title: 'Neutral and uncensored',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+      },
+      5: {
+        title: 'Free',
+        text: 'Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit, eiusmod tempor incididunt ut labore.',
+      },
+    },
+  },
 };

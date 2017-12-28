@@ -43,6 +43,7 @@ const SkycoinPage = () => (
           name: 'skycoinPage.benefits.4.title',
           text: 'skycoinPage.benefits.4.text',
           icon: IconSecurity,
+          list: ['skywirePage.benefits.1.list.1', 'skywirePage.benefits.1.list.2', 'skywirePage.benefits.1.list.3'],
         },
         {
           name: 'skycoinPage.benefits.5.title',

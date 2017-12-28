@@ -13,6 +13,7 @@ import RoadmapPage from '../RoadmapPage';
 import MailingPage from '../MailingPage';
 import MarketsPage from '../MarketsPage';
 import SkycoinPage from '../SkycoinPage';
+import SkywirePage from '../SkywirePage';
 
 const Routes = ({ match }) => {
   const prefix = match.path === '/' ? '/' : '/:locale/';
@@ -21,6 +22,7 @@ const Routes = ({ match }) => {
     <Switch>
       <Route path={`${prefix}`} exact component={Home} />
       <Route path={`${prefix}skycoin`} exact component={SkycoinPage} />
+      <Route path={`${prefix}skywire`} exact component={SkywirePage} />
       <Route path={`${prefix}downloads`} exact component={Downloads} />
       <Route path={`${prefix}whitepapers`} component={WhitepapersPage} />
       <Route path={`${prefix}infographics`} exact component={Infographics} />

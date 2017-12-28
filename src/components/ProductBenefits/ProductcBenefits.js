@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 import { COLORS_NEW } from 'config';
 import Container from 'components/Container';
+import IconCheck from 'components/Icons/check.svg';
 import media from 'utils/media';
 
 const Wrap = styled.div`
@@ -111,8 +112,39 @@ const Text = styled.div`
   line-height: 28px;
 `;
 
+const BenefitsList = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+`;
+
+const BenefitsItem = styled.li`
+  color: ${COLORS_NEW.white};
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 6px;
+  padding-left: 37px;
+  position: relative;
+
+  &::before {
+    content: '';
+    background: url(${IconCheck}) no-repeat 50% 50%;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 32px;
+    height: 32px;
+  }
+`;
+
 const renderList = list => (
-  <div>{list}</div>
+  <BenefitsList>
+    {list.map((item, i) => (
+      <BenefitsItem key={`${item}${i}`}>
+        <FormattedMessage id={item} />
+      </BenefitsItem>
+    ))}
+  </BenefitsList>
 );
 
 const ProductcBenefits = props => (
