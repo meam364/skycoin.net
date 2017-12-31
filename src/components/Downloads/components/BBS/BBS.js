@@ -4,9 +4,13 @@ import { FormattedMessage } from 'react-intl';
 import Container from 'components/Container';
 import Heading from 'components/Heading';
 import Text from 'components/Text';
-import ApplicationTable from 'components/ApplicationTable';
+import Link from 'components/Link';
+import styled from 'styled-components';
+import { COLORS_NEW } from 'config';
 
-import { downloads, version } from './downloads';
+const StyledLink = styled(Link)`
+  color: ${COLORS_NEW.primary};
+`;
 
 const BBS = () => (
   <div>
@@ -19,10 +23,14 @@ const BBS = () => (
         <FormattedMessage id="downloads.bbs.lead" />
       </Text>
 
-      <Text fontSize={[3, 3, 4]} color="gray.9" heavy>
-        <FormattedMessage id="downloads.wallet.build" values={{ version }} />
-      </Text>
-      <ApplicationTable list={downloads} />
+      <p>
+        <StyledLink href="https://github.com/skycoin/bbs/releases">
+          <FormattedMessage id="downloads.bbs.link" />
+        </StyledLink>
+      </p>
+      <StyledLink href="http://bbs.skycoin.net/">
+        <FormattedMessage id="downloads.bbs.thin" />
+      </StyledLink>
     </Container>
   </div>
 );

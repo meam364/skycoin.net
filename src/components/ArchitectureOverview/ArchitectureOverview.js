@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 const ArchitectureOverview = () => (
   <Page>
     <Wrapper>
-      <Header border />
+      <Header secondary title="Architecture overview" />
       <Container>
         <Box my={[5, 7]}>
           <Heading

@@ -27,7 +27,7 @@ const Distribution = ({ intl }) => (
         })}
       />
     </Helmet>
-    <Header />
+    <Header secondary title="Distribution" />
     <Hero />
     {!eventInProgress && <BuyBanner />}
     <About />

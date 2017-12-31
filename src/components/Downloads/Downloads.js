@@ -20,7 +20,7 @@ const Downloads = ({ intl }) => (
         content={intl.formatMessage({ id: 'downloads.description' })}
       />
     </Helmet>
-    <Header border />
+    <Header secondary title="Downloads" />
 
     <Wallet />
     <BBS />

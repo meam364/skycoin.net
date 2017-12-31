@@ -8,4 +8,9 @@ export default [{
   download: 'https://downloads.skycoin.net/branding/Skycoin-Logo-PNGs.zip',
   filetype: '.zip',
   filesize: '6mb',
+}, {
+  name: 'Skycoin Sans font',
+  download: 'https://downloads.skycoin.net/branding/Skycoin-Sans.zip',
+  filesize: '223kb',
+  filetype: '.zip',
 }];

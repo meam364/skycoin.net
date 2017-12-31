@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 import styled from 'styled-components';
 import { rem } from 'polished';
 import { SPACE, COLORS, FONT_FAMILIES, FONT_SIZES } from 'config';
@@ -61,6 +61,7 @@ const ContactLink = styled.a`
 const MarketsList = () => (
   <Wrap>
     <Contact>
+      <FormattedHTMLMessage id="markets.steps" />
       <FormattedMessage
         id="markets.contact"
       /> <ContactLink href="mailto:contact@skycoin.net">contact@skycoin.net</ContactLink>
